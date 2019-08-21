@@ -15,6 +15,21 @@
 		FC09F8022282EBAF0043A43D /* PMAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC09F7FF2282EBAE0043A43D /* PMAlertController.swift */; };
 		FC09F8032282EBAF0043A43D /* PMAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC09F8002282EBAF0043A43D /* PMAlertAction.swift */; };
 		FC09F8042282EBAF0043A43D /* PMAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC09F8012282EBAF0043A43D /* PMAlertController.xib */; };
+		FC0A8B7122E05B500047B1F0 /* HelpMyContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0A8B7022E05B500047B1F0 /* HelpMyContacts.swift */; };
+		FC0A8B7422E05F6D0047B1F0 /* obContact1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0A8B7322E05F6D0047B1F0 /* obContact1.xib */; };
+		FC0A8B7722E060070047B1F0 /* obContact2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0A8B7522E060060047B1F0 /* obContact2.xib */; };
+		FC0A8B7822E060070047B1F0 /* obContact3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0A8B7622E060070047B1F0 /* obContact3.xib */; };
+		FC0A8B7E22E061270047B1F0 /* obContact8.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0A8B7922E061250047B1F0 /* obContact8.xib */; };
+		FC0A8B7F22E061270047B1F0 /* obContact7.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0A8B7A22E061250047B1F0 /* obContact7.xib */; };
+		FC0A8B8022E061270047B1F0 /* obContact4.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0A8B7B22E061260047B1F0 /* obContact4.xib */; };
+		FC0A8B8122E061270047B1F0 /* obContact6.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0A8B7C22E061260047B1F0 /* obContact6.xib */; };
+		FC0A8B8222E061270047B1F0 /* obContact5.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0A8B7D22E061270047B1F0 /* obContact5.xib */; };
+		FC0A8B8822E061750047B1F0 /* obContact13.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0A8B8322E061720047B1F0 /* obContact13.xib */; };
+		FC0A8B8922E061750047B1F0 /* obContact12.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0A8B8422E061730047B1F0 /* obContact12.xib */; };
+		FC0A8B8A22E061750047B1F0 /* obContact9.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0A8B8522E061740047B1F0 /* obContact9.xib */; };
+		FC0A8B8B22E061750047B1F0 /* obContact11.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0A8B8622E061740047B1F0 /* obContact11.xib */; };
+		FC0A8B8C22E061750047B1F0 /* obContact10.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0A8B8722E061750047B1F0 /* obContact10.xib */; };
+		FC0A8B9122E6B7280047B1F0 /* HelpMyCustomers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0A8B9022E6B7270047B1F0 /* HelpMyCustomers.swift */; };
 		FC0DABBE229EA7EC00C5CFFA /* RSKPlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0DABBD229EA7EB00C5CFFA /* RSKPlaceholderTextView.swift */; };
 		FC15DFC62282B7F90065A5FF /* AddProspectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC15DFC52282B7F90065A5FF /* AddProspectView.swift */; };
 		FC15DFC82282C6D90065A5FF /* GrowingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC15DFC72282C6D90065A5FF /* GrowingTextView.swift */; };
@@ -72,6 +87,34 @@
 		FC1FB960229436D10045D4D9 /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1FB95F229436D10045D4D9 /* FAQ.swift */; };
 		FC1FB962229436E80045D4D9 /* ContactSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1FB961229436E80045D4D9 /* ContactSupport.swift */; };
 		FC1FB964229436F90045D4D9 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1FB963229436F90045D4D9 /* Feedback.swift */; };
+		FC2499E122D8558500DF1DCC /* camp2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2499DF22D8558400DF1DCC /* camp2.xib */; };
+		FC2499E222D8558500DF1DCC /* camp1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2499E022D8558500DF1DCC /* camp1.xib */; };
+		FC2499E422D855A000DF1DCC /* camp3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2499E322D855A000DF1DCC /* camp3.xib */; };
+		FC2499EA22D8580800DF1DCC /* addE1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2499E622D8580600DF1DCC /* addE1.xib */; };
+		FC2499EB22D8580800DF1DCC /* addE2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2499E722D8580700DF1DCC /* addE2.xib */; };
+		FC2499EC22D8580800DF1DCC /* addE3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2499E822D8580700DF1DCC /* addE3.xib */; };
+		FC2499ED22D8580800DF1DCC /* addE4.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2499E922D8580800DF1DCC /* addE4.xib */; };
+		FC2499F322D8597700DF1DCC /* imp1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2499EF22D8597500DF1DCC /* imp1.xib */; };
+		FC2499F422D8597700DF1DCC /* imp2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2499F022D8597600DF1DCC /* imp2.xib */; };
+		FC2499F522D8597700DF1DCC /* rem1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2499F122D8597700DF1DCC /* rem1.xib */; };
+		FC2499F622D8597700DF1DCC /* rem2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2499F222D8597700DF1DCC /* rem2.xib */; };
+		FC2499FE22DC3E8D00DF1DCC /* cft1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2499F922DC3E8B00DF1DCC /* cft1.xib */; };
+		FC2499FF22DC3E8D00DF1DCC /* cft2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2499FA22DC3E8B00DF1DCC /* cft2.xib */; };
+		FC249A0022DC3E8D00DF1DCC /* cft3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2499FB22DC3E8C00DF1DCC /* cft3.xib */; };
+		FC249A0122DC3E8D00DF1DCC /* cft4.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2499FC22DC3E8C00DF1DCC /* cft4.xib */; };
+		FC249A0222DC3E8D00DF1DCC /* cft5.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2499FD22DC3E8D00DF1DCC /* cft5.xib */; };
+		FC249A0922DC85FC00DF1DCC /* TCHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC249A0822DC85FC00DF1DCC /* TCHelpView.swift */; };
+		FC249A0D22DC89CF00DF1DCC /* createTCamp1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC249A0B22DC89CC00DF1DCC /* createTCamp1.xib */; };
+		FC249A0E22DC89CF00DF1DCC /* createTCamp2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC249A0C22DC89CF00DF1DCC /* createTCamp2.xib */; };
+		FC249A1522DC8A0700DF1DCC /* createMessage1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC249A1022DC8A0400DF1DCC /* createMessage1.xib */; };
+		FC249A1622DC8A0700DF1DCC /* createMessage2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC249A1122DC8A0400DF1DCC /* createMessage2.xib */; };
+		FC249A1722DC8A0700DF1DCC /* createMessage3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC249A1222DC8A0500DF1DCC /* createMessage3.xib */; };
+		FC249A1822DC8A0700DF1DCC /* createMessage4.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC249A1322DC8A0600DF1DCC /* createMessage4.xib */; };
+		FC249A1922DC8A0700DF1DCC /* createMessage5.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC249A1422DC8A0700DF1DCC /* createMessage5.xib */; };
+		FC249A1F22DC8AA400DF1DCC /* addMember1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC249A1B22DC8AA200DF1DCC /* addMember1.xib */; };
+		FC249A2022DC8AA400DF1DCC /* addMember2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC249A1C22DC8AA200DF1DCC /* addMember2.xib */; };
+		FC249A2122DC8AA400DF1DCC /* addMember3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC249A1D22DC8AA300DF1DCC /* addMember3.xib */; };
+		FC249A2222DC8AA400DF1DCC /* addMember4.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC249A1E22DC8AA400DF1DCC /* addMember4.xib */; };
 		FC28263C228C18BE00AB633E /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC28263B228C18BE00AB633E /* SearchTextField.swift */; };
 		FC28263E228C7CAF00AB633E /* PrivacyOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC28263D228C7CAF00AB633E /* PrivacyOptionView.swift */; };
 		FC2C70FA2299082500CE7D64 /* CreateNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C70F92299082500CE7D64 /* CreateNoteView.swift */; };
@@ -129,6 +172,46 @@
 		FC6D9F8F2280B3CB007AE0DB /* THLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6D9F8E2280B3CA007AE0DB /* THLabel.m */; };
 		FC6D9F932280C60A007AE0DB /* WeeklyTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6D9F922280C60A007AE0DB /* WeeklyTrackingView.swift */; };
 		FC6D9F952280C637007AE0DB /* WT.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6D9F942280C637007AE0DB /* WT.storyboard */; };
+		FC6EE5A322E6BC25007A3915 /* obCust1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6EE59622E6BC1D007A3915 /* obCust1.xib */; };
+		FC6EE5A422E6BC25007A3915 /* obCust8.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6EE59722E6BC1E007A3915 /* obCust8.xib */; };
+		FC6EE5A522E6BC25007A3915 /* obCust10.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6EE59822E6BC1F007A3915 /* obCust10.xib */; };
+		FC6EE5A622E6BC25007A3915 /* obCust13.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6EE59922E6BC1F007A3915 /* obCust13.xib */; };
+		FC6EE5A722E6BC25007A3915 /* obCust12.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6EE59A22E6BC20007A3915 /* obCust12.xib */; };
+		FC6EE5A822E6BC25007A3915 /* obCust4.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6EE59B22E6BC20007A3915 /* obCust4.xib */; };
+		FC6EE5A922E6BC25007A3915 /* obCust7.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6EE59C22E6BC21007A3915 /* obCust7.xib */; };
+		FC6EE5AA22E6BC25007A3915 /* obCust6.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6EE59D22E6BC21007A3915 /* obCust6.xib */; };
+		FC6EE5AB22E6BC25007A3915 /* obCust9.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6EE59E22E6BC22007A3915 /* obCust9.xib */; };
+		FC6EE5AC22E6BC25007A3915 /* obCust2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6EE59F22E6BC23007A3915 /* obCust2.xib */; };
+		FC6EE5AD22E6BC25007A3915 /* obCust3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6EE5A022E6BC23007A3915 /* obCust3.xib */; };
+		FC6EE5AE22E6BC25007A3915 /* obCust11.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6EE5A122E6BC24007A3915 /* obCust11.xib */; };
+		FC6EE5AF22E6BC25007A3915 /* obCust5.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6EE5A222E6BC24007A3915 /* obCust5.xib */; };
+		FC7E2FA522E8055C00EA9DE1 /* obRecruit5.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7E2F9822E8055500EA9DE1 /* obRecruit5.xib */; };
+		FC7E2FA622E8055C00EA9DE1 /* obRecruit1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7E2F9922E8055500EA9DE1 /* obRecruit1.xib */; };
+		FC7E2FA722E8055C00EA9DE1 /* obRecruit8.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7E2F9A22E8055600EA9DE1 /* obRecruit8.xib */; };
+		FC7E2FA822E8055C00EA9DE1 /* obRecruit9.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7E2F9B22E8055600EA9DE1 /* obRecruit9.xib */; };
+		FC7E2FA922E8055C00EA9DE1 /* obRecruit13.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7E2F9C22E8055700EA9DE1 /* obRecruit13.xib */; };
+		FC7E2FAA22E8055C00EA9DE1 /* obRecruit6.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7E2F9D22E8055700EA9DE1 /* obRecruit6.xib */; };
+		FC7E2FAB22E8055C00EA9DE1 /* obRecruit11.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7E2F9E22E8055800EA9DE1 /* obRecruit11.xib */; };
+		FC7E2FAC22E8055C00EA9DE1 /* obRecruit3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7E2F9F22E8055900EA9DE1 /* obRecruit3.xib */; };
+		FC7E2FAD22E8055C00EA9DE1 /* obRecruit7.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7E2FA022E8055900EA9DE1 /* obRecruit7.xib */; };
+		FC7E2FAE22E8055C00EA9DE1 /* obRecruit12.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7E2FA122E8055A00EA9DE1 /* obRecruit12.xib */; };
+		FC7E2FAF22E8055C00EA9DE1 /* obRecruit10.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7E2FA222E8055A00EA9DE1 /* obRecruit10.xib */; };
+		FC7E2FB022E8055C00EA9DE1 /* obRecruit2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7E2FA322E8055B00EA9DE1 /* obRecruit2.xib */; };
+		FC7E2FB122E8055C00EA9DE1 /* obRecruit4.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7E2FA422E8055C00EA9DE1 /* obRecruit4.xib */; };
+		FC7E2FB322E8057B00EA9DE1 /* HelpMyRecruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E2FB222E8057B00EA9DE1 /* HelpMyRecruit.swift */; };
+		FC7E2FB722E95E1300EA9DE1 /* HelpDailyChecklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E2FB622E95E1300EA9DE1 /* HelpDailyChecklist.swift */; };
+		FC7E2FBE22E95F8200EA9DE1 /* obDailyCheck2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7E2FB922E95F7E00EA9DE1 /* obDailyCheck2.xib */; };
+		FC7E2FBF22E95F8200EA9DE1 /* obDailyCheck5.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7E2FBA22E95F7F00EA9DE1 /* obDailyCheck5.xib */; };
+		FC7E2FC022E95F8200EA9DE1 /* obDailyCheck4.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7E2FBB22E95F8000EA9DE1 /* obDailyCheck4.xib */; };
+		FC7E2FC122E95F8200EA9DE1 /* obDailyCheck1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7E2FBC22E95F8100EA9DE1 /* obDailyCheck1.xib */; };
+		FC7E2FC222E95F8200EA9DE1 /* obDailyCheck3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7E2FBD22E95F8200EA9DE1 /* obDailyCheck3.xib */; };
+		FC90A2FA22E9B96500C6D9A7 /* HelpMyGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC90A2F922E9B96500C6D9A7 /* HelpMyGroups.swift */; };
+		FC90A30122E9BE7C00C6D9A7 /* obGrp2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC90A2FB22E9BE7900C6D9A7 /* obGrp2.xib */; };
+		FC90A30222E9BE7C00C6D9A7 /* obGrp3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC90A2FC22E9BE7900C6D9A7 /* obGrp3.xib */; };
+		FC90A30322E9BE7C00C6D9A7 /* obGrp1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC90A2FD22E9BE7A00C6D9A7 /* obGrp1.xib */; };
+		FC90A30422E9BE7C00C6D9A7 /* obGrp6.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC90A2FE22E9BE7B00C6D9A7 /* obGrp6.xib */; };
+		FC90A30522E9BE7C00C6D9A7 /* obGrp4.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC90A2FF22E9BE7B00C6D9A7 /* obGrp4.xib */; };
+		FC90A30622E9BE7C00C6D9A7 /* obGrp5.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC90A30022E9BE7C00C6D9A7 /* obGrp5.xib */; };
 		FC91829B22926E240008AF0F /* SavedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC91829A22926E240008AF0F /* SavedImageView.swift */; };
 		FC91829D229285700008AF0F /* EditVB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC91829C229285700008AF0F /* EditVB.swift */; };
 		FC91829F2292A11E0008AF0F /* VisionDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC91829E2292A11E0008AF0F /* VisionDetails.swift */; };
@@ -138,6 +221,12 @@
 		FC92F21C229B934E000DB49C /* SPNotificationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92F21B229B934E000DB49C /* SPNotificationDetails.swift */; };
 		FC92F21F229B9CFA000DB49C /* PackagesFilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92F21D229B9CF9000DB49C /* PackagesFilterVC.swift */; };
 		FC92F220229B9CFA000DB49C /* Packages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC92F21E229B9CF9000DB49C /* Packages.storyboard */; };
+		FC99F78422D838150034289C /* Template3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC99F77F22D838130034289C /* Template3.xib */; };
+		FC99F78522D838150034289C /* Template2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC99F78022D838130034289C /* Template2.xib */; };
+		FC99F78622D838150034289C /* Template5.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC99F78122D838140034289C /* Template5.xib */; };
+		FC99F78722D838150034289C /* Template1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC99F78222D838150034289C /* Template1.xib */; };
+		FC99F78822D838150034289C /* Template4.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC99F78322D838150034289C /* Template4.xib */; };
+		FC99F78A22D8394C0034289C /* ECHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC99F78922D8394C0034289C /* ECHelpView.swift */; };
 		FC9A015B22817949008B4835 /* AddEditGoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A015A22817949008B4835 /* AddEditGoalCell.swift */; };
 		FC9A015D22817B32008B4835 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A015C22817B31008B4835 /* DatePickerDialog.swift */; };
 		FC9A01602281A763008B4835 /* MyGroups.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9A015F2281A763008B4835 /* MyGroups.storyboard */; };
@@ -187,6 +276,20 @@
 		FCC0B11A2295117200C633F0 /* SirenDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC0B10E2295117000C633F0 /* SirenDelegate.swift */; };
 		FCC0B11B2295117200C633F0 /* SirenLookupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC0B10F2295117100C633F0 /* SirenLookupModel.swift */; };
 		FCC0B11C2295117200C633F0 /* SirenLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC0B1102295117100C633F0 /* SirenLog.swift */; };
+		FCC4B96D22E727CA00C5116B /* HelpMyProspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC4B96C22E727CA00C5116B /* HelpMyProspects.swift */; };
+		FCC4B97B22E728C700C5116B /* obProspect6.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC4B96E22E728BF00C5116B /* obProspect6.xib */; };
+		FCC4B97C22E728C700C5116B /* obProspect10.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC4B96F22E728C000C5116B /* obProspect10.xib */; };
+		FCC4B97D22E728C700C5116B /* obProspect7.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC4B97022E728C100C5116B /* obProspect7.xib */; };
+		FCC4B97E22E728C700C5116B /* obProspect9.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC4B97122E728C100C5116B /* obProspect9.xib */; };
+		FCC4B97F22E728C700C5116B /* obProspect11.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC4B97222E728C200C5116B /* obProspect11.xib */; };
+		FCC4B98022E728C700C5116B /* obProspect5.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC4B97322E728C200C5116B /* obProspect5.xib */; };
+		FCC4B98122E728C700C5116B /* obProspect4.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC4B97422E728C300C5116B /* obProspect4.xib */; };
+		FCC4B98222E728C700C5116B /* obProspect8.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC4B97522E728C300C5116B /* obProspect8.xib */; };
+		FCC4B98322E728C700C5116B /* obProspect12.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC4B97622E728C400C5116B /* obProspect12.xib */; };
+		FCC4B98422E728C700C5116B /* obProspect2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC4B97722E728C500C5116B /* obProspect2.xib */; };
+		FCC4B98522E728C700C5116B /* obProspect13.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC4B97822E728C500C5116B /* obProspect13.xib */; };
+		FCC4B98622E728C700C5116B /* obProspect1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC4B97922E728C600C5116B /* obProspect1.xib */; };
+		FCC4B98722E728C700C5116B /* obProspect3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC4B97A22E728C600C5116B /* obProspect3.xib */; };
 		FCC8E9A1228D15C30092B54D /* CFT.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC8E9A0228D15C30092B54D /* CFT.storyboard */; };
 		FCC8E9A8228D1BDF0092B54D /* WeeklyGraph.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC8E9A7228D1BDF0092B54D /* WeeklyGraph.storyboard */; };
 		FCC8E9AA228D1BFA0092B54D /* WeeklyGraphDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8E9A9228D1BFA0092B54D /* WeeklyGraphDashboard.swift */; };
@@ -285,6 +388,21 @@
 		FC09F7FF2282EBAE0043A43D /* PMAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMAlertController.swift; sourceTree = "<group>"; };
 		FC09F8002282EBAF0043A43D /* PMAlertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMAlertAction.swift; sourceTree = "<group>"; };
 		FC09F8012282EBAF0043A43D /* PMAlertController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMAlertController.xib; sourceTree = "<group>"; };
+		FC0A8B7022E05B500047B1F0 /* HelpMyContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMyContacts.swift; sourceTree = "<group>"; };
+		FC0A8B7322E05F6D0047B1F0 /* obContact1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obContact1.xib; sourceTree = "<group>"; };
+		FC0A8B7522E060060047B1F0 /* obContact2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obContact2.xib; sourceTree = "<group>"; };
+		FC0A8B7622E060070047B1F0 /* obContact3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obContact3.xib; sourceTree = "<group>"; };
+		FC0A8B7922E061250047B1F0 /* obContact8.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obContact8.xib; sourceTree = "<group>"; };
+		FC0A8B7A22E061250047B1F0 /* obContact7.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obContact7.xib; sourceTree = "<group>"; };
+		FC0A8B7B22E061260047B1F0 /* obContact4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obContact4.xib; sourceTree = "<group>"; };
+		FC0A8B7C22E061260047B1F0 /* obContact6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obContact6.xib; sourceTree = "<group>"; };
+		FC0A8B7D22E061270047B1F0 /* obContact5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obContact5.xib; sourceTree = "<group>"; };
+		FC0A8B8322E061720047B1F0 /* obContact13.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obContact13.xib; sourceTree = "<group>"; };
+		FC0A8B8422E061730047B1F0 /* obContact12.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obContact12.xib; sourceTree = "<group>"; };
+		FC0A8B8522E061740047B1F0 /* obContact9.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obContact9.xib; sourceTree = "<group>"; };
+		FC0A8B8622E061740047B1F0 /* obContact11.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obContact11.xib; sourceTree = "<group>"; };
+		FC0A8B8722E061750047B1F0 /* obContact10.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obContact10.xib; sourceTree = "<group>"; };
+		FC0A8B9022E6B7270047B1F0 /* HelpMyCustomers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMyCustomers.swift; sourceTree = "<group>"; };
 		FC0DABBD229EA7EB00C5CFFA /* RSKPlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSKPlaceholderTextView.swift; sourceTree = "<group>"; };
 		FC15DFC52282B7F90065A5FF /* AddProspectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProspectView.swift; sourceTree = "<group>"; };
 		FC15DFC72282C6D90065A5FF /* GrowingTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrowingTextView.swift; sourceTree = "<group>"; };
@@ -343,6 +461,34 @@
 		FC1FB95F229436D10045D4D9 /* FAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
 		FC1FB961229436E80045D4D9 /* ContactSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSupport.swift; sourceTree = "<group>"; };
 		FC1FB963229436F90045D4D9 /* Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		FC2499DF22D8558400DF1DCC /* camp2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = camp2.xib; sourceTree = "<group>"; };
+		FC2499E022D8558500DF1DCC /* camp1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = camp1.xib; sourceTree = "<group>"; };
+		FC2499E322D855A000DF1DCC /* camp3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = camp3.xib; sourceTree = "<group>"; };
+		FC2499E622D8580600DF1DCC /* addE1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = addE1.xib; sourceTree = "<group>"; };
+		FC2499E722D8580700DF1DCC /* addE2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = addE2.xib; sourceTree = "<group>"; };
+		FC2499E822D8580700DF1DCC /* addE3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = addE3.xib; sourceTree = "<group>"; };
+		FC2499E922D8580800DF1DCC /* addE4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = addE4.xib; sourceTree = "<group>"; };
+		FC2499EF22D8597500DF1DCC /* imp1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = imp1.xib; sourceTree = "<group>"; };
+		FC2499F022D8597600DF1DCC /* imp2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = imp2.xib; sourceTree = "<group>"; };
+		FC2499F122D8597700DF1DCC /* rem1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = rem1.xib; sourceTree = "<group>"; };
+		FC2499F222D8597700DF1DCC /* rem2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = rem2.xib; sourceTree = "<group>"; };
+		FC2499F922DC3E8B00DF1DCC /* cft1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cft1.xib; sourceTree = "<group>"; };
+		FC2499FA22DC3E8B00DF1DCC /* cft2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cft2.xib; sourceTree = "<group>"; };
+		FC2499FB22DC3E8C00DF1DCC /* cft3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cft3.xib; sourceTree = "<group>"; };
+		FC2499FC22DC3E8C00DF1DCC /* cft4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cft4.xib; sourceTree = "<group>"; };
+		FC2499FD22DC3E8D00DF1DCC /* cft5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cft5.xib; sourceTree = "<group>"; };
+		FC249A0822DC85FC00DF1DCC /* TCHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCHelpView.swift; sourceTree = "<group>"; };
+		FC249A0B22DC89CC00DF1DCC /* createTCamp1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = createTCamp1.xib; sourceTree = "<group>"; };
+		FC249A0C22DC89CF00DF1DCC /* createTCamp2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = createTCamp2.xib; sourceTree = "<group>"; };
+		FC249A1022DC8A0400DF1DCC /* createMessage1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = createMessage1.xib; sourceTree = "<group>"; };
+		FC249A1122DC8A0400DF1DCC /* createMessage2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = createMessage2.xib; sourceTree = "<group>"; };
+		FC249A1222DC8A0500DF1DCC /* createMessage3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = createMessage3.xib; sourceTree = "<group>"; };
+		FC249A1322DC8A0600DF1DCC /* createMessage4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = createMessage4.xib; sourceTree = "<group>"; };
+		FC249A1422DC8A0700DF1DCC /* createMessage5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = createMessage5.xib; sourceTree = "<group>"; };
+		FC249A1B22DC8AA200DF1DCC /* addMember1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = addMember1.xib; sourceTree = "<group>"; };
+		FC249A1C22DC8AA200DF1DCC /* addMember2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = addMember2.xib; sourceTree = "<group>"; };
+		FC249A1D22DC8AA300DF1DCC /* addMember3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = addMember3.xib; sourceTree = "<group>"; };
+		FC249A1E22DC8AA400DF1DCC /* addMember4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = addMember4.xib; sourceTree = "<group>"; };
 		FC28263B228C18BE00AB633E /* SearchTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
 		FC28263D228C7CAF00AB633E /* PrivacyOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyOptionView.swift; sourceTree = "<group>"; };
 		FC2C70F92299082500CE7D64 /* CreateNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteView.swift; sourceTree = "<group>"; };
@@ -402,6 +548,46 @@
 		FC6D9F902280B3D9007AE0DB /* THLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THLabel.h; sourceTree = "<group>"; };
 		FC6D9F922280C60A007AE0DB /* WeeklyTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyTrackingView.swift; sourceTree = "<group>"; };
 		FC6D9F942280C637007AE0DB /* WT.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WT.storyboard; sourceTree = "<group>"; };
+		FC6EE59622E6BC1D007A3915 /* obCust1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obCust1.xib; sourceTree = "<group>"; };
+		FC6EE59722E6BC1E007A3915 /* obCust8.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obCust8.xib; sourceTree = "<group>"; };
+		FC6EE59822E6BC1F007A3915 /* obCust10.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obCust10.xib; sourceTree = "<group>"; };
+		FC6EE59922E6BC1F007A3915 /* obCust13.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obCust13.xib; sourceTree = "<group>"; };
+		FC6EE59A22E6BC20007A3915 /* obCust12.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obCust12.xib; sourceTree = "<group>"; };
+		FC6EE59B22E6BC20007A3915 /* obCust4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obCust4.xib; sourceTree = "<group>"; };
+		FC6EE59C22E6BC21007A3915 /* obCust7.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obCust7.xib; sourceTree = "<group>"; };
+		FC6EE59D22E6BC21007A3915 /* obCust6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obCust6.xib; sourceTree = "<group>"; };
+		FC6EE59E22E6BC22007A3915 /* obCust9.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obCust9.xib; sourceTree = "<group>"; };
+		FC6EE59F22E6BC23007A3915 /* obCust2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obCust2.xib; sourceTree = "<group>"; };
+		FC6EE5A022E6BC23007A3915 /* obCust3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obCust3.xib; sourceTree = "<group>"; };
+		FC6EE5A122E6BC24007A3915 /* obCust11.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obCust11.xib; sourceTree = "<group>"; };
+		FC6EE5A222E6BC24007A3915 /* obCust5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obCust5.xib; sourceTree = "<group>"; };
+		FC7E2F9822E8055500EA9DE1 /* obRecruit5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obRecruit5.xib; sourceTree = "<group>"; };
+		FC7E2F9922E8055500EA9DE1 /* obRecruit1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obRecruit1.xib; sourceTree = "<group>"; };
+		FC7E2F9A22E8055600EA9DE1 /* obRecruit8.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obRecruit8.xib; sourceTree = "<group>"; };
+		FC7E2F9B22E8055600EA9DE1 /* obRecruit9.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obRecruit9.xib; sourceTree = "<group>"; };
+		FC7E2F9C22E8055700EA9DE1 /* obRecruit13.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obRecruit13.xib; sourceTree = "<group>"; };
+		FC7E2F9D22E8055700EA9DE1 /* obRecruit6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obRecruit6.xib; sourceTree = "<group>"; };
+		FC7E2F9E22E8055800EA9DE1 /* obRecruit11.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obRecruit11.xib; sourceTree = "<group>"; };
+		FC7E2F9F22E8055900EA9DE1 /* obRecruit3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obRecruit3.xib; sourceTree = "<group>"; };
+		FC7E2FA022E8055900EA9DE1 /* obRecruit7.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obRecruit7.xib; sourceTree = "<group>"; };
+		FC7E2FA122E8055A00EA9DE1 /* obRecruit12.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obRecruit12.xib; sourceTree = "<group>"; };
+		FC7E2FA222E8055A00EA9DE1 /* obRecruit10.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obRecruit10.xib; sourceTree = "<group>"; };
+		FC7E2FA322E8055B00EA9DE1 /* obRecruit2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obRecruit2.xib; sourceTree = "<group>"; };
+		FC7E2FA422E8055C00EA9DE1 /* obRecruit4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obRecruit4.xib; sourceTree = "<group>"; };
+		FC7E2FB222E8057B00EA9DE1 /* HelpMyRecruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMyRecruit.swift; sourceTree = "<group>"; };
+		FC7E2FB622E95E1300EA9DE1 /* HelpDailyChecklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpDailyChecklist.swift; sourceTree = "<group>"; };
+		FC7E2FB922E95F7E00EA9DE1 /* obDailyCheck2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obDailyCheck2.xib; sourceTree = "<group>"; };
+		FC7E2FBA22E95F7F00EA9DE1 /* obDailyCheck5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obDailyCheck5.xib; sourceTree = "<group>"; };
+		FC7E2FBB22E95F8000EA9DE1 /* obDailyCheck4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obDailyCheck4.xib; sourceTree = "<group>"; };
+		FC7E2FBC22E95F8100EA9DE1 /* obDailyCheck1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obDailyCheck1.xib; sourceTree = "<group>"; };
+		FC7E2FBD22E95F8200EA9DE1 /* obDailyCheck3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obDailyCheck3.xib; sourceTree = "<group>"; };
+		FC90A2F922E9B96500C6D9A7 /* HelpMyGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMyGroups.swift; sourceTree = "<group>"; };
+		FC90A2FB22E9BE7900C6D9A7 /* obGrp2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obGrp2.xib; sourceTree = "<group>"; };
+		FC90A2FC22E9BE7900C6D9A7 /* obGrp3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obGrp3.xib; sourceTree = "<group>"; };
+		FC90A2FD22E9BE7A00C6D9A7 /* obGrp1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obGrp1.xib; sourceTree = "<group>"; };
+		FC90A2FE22E9BE7B00C6D9A7 /* obGrp6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obGrp6.xib; sourceTree = "<group>"; };
+		FC90A2FF22E9BE7B00C6D9A7 /* obGrp4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obGrp4.xib; sourceTree = "<group>"; };
+		FC90A30022E9BE7C00C6D9A7 /* obGrp5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obGrp5.xib; sourceTree = "<group>"; };
 		FC91829A22926E240008AF0F /* SavedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedImageView.swift; sourceTree = "<group>"; };
 		FC91829C229285700008AF0F /* EditVB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditVB.swift; sourceTree = "<group>"; };
 		FC91829E2292A11E0008AF0F /* VisionDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionDetails.swift; sourceTree = "<group>"; };
@@ -411,6 +597,12 @@
 		FC92F21B229B934E000DB49C /* SPNotificationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPNotificationDetails.swift; sourceTree = "<group>"; };
 		FC92F21D229B9CF9000DB49C /* PackagesFilterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackagesFilterVC.swift; sourceTree = "<group>"; };
 		FC92F21E229B9CF9000DB49C /* Packages.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Packages.storyboard; sourceTree = "<group>"; };
+		FC99F77F22D838130034289C /* Template3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Template3.xib; sourceTree = "<group>"; };
+		FC99F78022D838130034289C /* Template2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Template2.xib; sourceTree = "<group>"; };
+		FC99F78122D838140034289C /* Template5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Template5.xib; sourceTree = "<group>"; };
+		FC99F78222D838150034289C /* Template1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Template1.xib; sourceTree = "<group>"; };
+		FC99F78322D838150034289C /* Template4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Template4.xib; sourceTree = "<group>"; };
+		FC99F78922D8394C0034289C /* ECHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECHelpView.swift; sourceTree = "<group>"; };
 		FC9A015A22817949008B4835 /* AddEditGoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditGoalCell.swift; sourceTree = "<group>"; };
 		FC9A015C22817B31008B4835 /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
 		FC9A015F2281A763008B4835 /* MyGroups.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyGroups.storyboard; sourceTree = "<group>"; };
@@ -460,6 +652,20 @@
 		FCC0B10E2295117000C633F0 /* SirenDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SirenDelegate.swift; sourceTree = "<group>"; };
 		FCC0B10F2295117100C633F0 /* SirenLookupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SirenLookupModel.swift; sourceTree = "<group>"; };
 		FCC0B1102295117100C633F0 /* SirenLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SirenLog.swift; sourceTree = "<group>"; };
+		FCC4B96C22E727CA00C5116B /* HelpMyProspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMyProspects.swift; sourceTree = "<group>"; };
+		FCC4B96E22E728BF00C5116B /* obProspect6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obProspect6.xib; sourceTree = "<group>"; };
+		FCC4B96F22E728C000C5116B /* obProspect10.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obProspect10.xib; sourceTree = "<group>"; };
+		FCC4B97022E728C100C5116B /* obProspect7.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obProspect7.xib; sourceTree = "<group>"; };
+		FCC4B97122E728C100C5116B /* obProspect9.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obProspect9.xib; sourceTree = "<group>"; };
+		FCC4B97222E728C200C5116B /* obProspect11.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obProspect11.xib; sourceTree = "<group>"; };
+		FCC4B97322E728C200C5116B /* obProspect5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obProspect5.xib; sourceTree = "<group>"; };
+		FCC4B97422E728C300C5116B /* obProspect4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obProspect4.xib; sourceTree = "<group>"; };
+		FCC4B97522E728C300C5116B /* obProspect8.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obProspect8.xib; sourceTree = "<group>"; };
+		FCC4B97622E728C400C5116B /* obProspect12.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obProspect12.xib; sourceTree = "<group>"; };
+		FCC4B97722E728C500C5116B /* obProspect2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obProspect2.xib; sourceTree = "<group>"; };
+		FCC4B97822E728C500C5116B /* obProspect13.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obProspect13.xib; sourceTree = "<group>"; };
+		FCC4B97922E728C600C5116B /* obProspect1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obProspect1.xib; sourceTree = "<group>"; };
+		FCC4B97A22E728C600C5116B /* obProspect3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = obProspect3.xib; sourceTree = "<group>"; };
 		FCC8E9A0228D15C30092B54D /* CFT.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CFT.storyboard; sourceTree = "<group>"; };
 		FCC8E9A7228D1BDF0092B54D /* WeeklyGraph.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WeeklyGraph.storyboard; sourceTree = "<group>"; };
 		FCC8E9A9228D1BFA0092B54D /* WeeklyGraphDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyGraphDashboard.swift; sourceTree = "<group>"; };
@@ -589,6 +795,46 @@
 			path = PMAlertView;
 			sourceTree = "<group>";
 		};
+		FC0A8B7222E05F1F0047B1F0 /* OBContacts */ = {
+			isa = PBXGroup;
+			children = (
+				FC0A8B7322E05F6D0047B1F0 /* obContact1.xib */,
+				FC0A8B7522E060060047B1F0 /* obContact2.xib */,
+				FC0A8B7622E060070047B1F0 /* obContact3.xib */,
+				FC0A8B7B22E061260047B1F0 /* obContact4.xib */,
+				FC0A8B7D22E061270047B1F0 /* obContact5.xib */,
+				FC0A8B7C22E061260047B1F0 /* obContact6.xib */,
+				FC0A8B7A22E061250047B1F0 /* obContact7.xib */,
+				FC0A8B7922E061250047B1F0 /* obContact8.xib */,
+				FC0A8B8522E061740047B1F0 /* obContact9.xib */,
+				FC0A8B8722E061750047B1F0 /* obContact10.xib */,
+				FC0A8B8622E061740047B1F0 /* obContact11.xib */,
+				FC0A8B8422E061730047B1F0 /* obContact12.xib */,
+				FC0A8B8322E061720047B1F0 /* obContact13.xib */,
+			);
+			path = OBContacts;
+			sourceTree = "<group>";
+		};
+		FC0A8B8F22E6B34F0047B1F0 /* OBCustomers */ = {
+			isa = PBXGroup;
+			children = (
+				FC6EE59622E6BC1D007A3915 /* obCust1.xib */,
+				FC6EE59F22E6BC23007A3915 /* obCust2.xib */,
+				FC6EE5A022E6BC23007A3915 /* obCust3.xib */,
+				FC6EE59B22E6BC20007A3915 /* obCust4.xib */,
+				FC6EE5A222E6BC24007A3915 /* obCust5.xib */,
+				FC6EE59D22E6BC21007A3915 /* obCust6.xib */,
+				FC6EE59C22E6BC21007A3915 /* obCust7.xib */,
+				FC6EE59722E6BC1E007A3915 /* obCust8.xib */,
+				FC6EE59E22E6BC22007A3915 /* obCust9.xib */,
+				FC6EE59822E6BC1F007A3915 /* obCust10.xib */,
+				FC6EE5A122E6BC24007A3915 /* obCust11.xib */,
+				FC6EE59A22E6BC20007A3915 /* obCust12.xib */,
+				FC6EE59922E6BC1F007A3915 /* obCust13.xib */,
+			);
+			path = OBCustomers;
+			sourceTree = "<group>";
+		};
 		FC1908DD22802F2600F97B4F /* Indicator Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -649,6 +895,7 @@
 		FC1908EF2280410A00F97B4F /* SE Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				FC7E2FB822E95F0900EA9DE1 /* OBDailyChecklist */,
 				FC6D9F8D2280B3C4007AE0DB /* SENew-Bridging-Header.h */,
 				FC1908F02280413400F97B4F /* DashboardView.swift */,
 				FC1908F422804AA400F97B4F /* UIView+constraints.swift */,
@@ -658,6 +905,7 @@
 				FC1908FA2280548500F97B4F /* WeeklyScoreCardView.swift */,
 				FC6D9F8B22809C21007AE0DB /* WeeklyScoreCardCell.swift */,
 				FCA1879622813F4E009C1E88 /* SMLineChartView.swift */,
+				FC7E2FB622E95E1300EA9DE1 /* HelpDailyChecklist.swift */,
 			);
 			path = "SE Dashboard";
 			sourceTree = "<group>";
@@ -724,6 +972,7 @@
 		FC1F2D02228AC9E00006AE79 /* CFT Locator */ = {
 			isa = PBXGroup;
 			children = (
+				FC249A0322DC3E9400DF1DCC /* cftLoc_OB */,
 				FC28263B228C18BE00AB633E /* SearchTextField.swift */,
 				FC1F2D03228AC9FD0006AE79 /* CFTLocator.storyboard */,
 				FC1F2D05228ACADC0006AE79 /* CFTLocatorDashboard.swift */,
@@ -779,13 +1028,121 @@
 			name = CMS;
 			sourceTree = "<group>";
 		};
+		FC2499DE22D8550100DF1DCC /* ECOB_createTemp */ = {
+			isa = PBXGroup;
+			children = (
+				FC99F78222D838150034289C /* Template1.xib */,
+				FC99F78022D838130034289C /* Template2.xib */,
+				FC99F77F22D838130034289C /* Template3.xib */,
+				FC99F78322D838150034289C /* Template4.xib */,
+				FC99F78122D838140034289C /* Template5.xib */,
+			);
+			path = ECOB_createTemp;
+			sourceTree = "<group>";
+		};
+		FC2499E522D855AA00DF1DCC /* ECOB_createCamp */ = {
+			isa = PBXGroup;
+			children = (
+				FC2499E022D8558500DF1DCC /* camp1.xib */,
+				FC2499DF22D8558400DF1DCC /* camp2.xib */,
+				FC2499E322D855A000DF1DCC /* camp3.xib */,
+			);
+			path = ECOB_createCamp;
+			sourceTree = "<group>";
+		};
+		FC2499EE22D8582500DF1DCC /* ECOB_addEmail */ = {
+			isa = PBXGroup;
+			children = (
+				FC2499E622D8580600DF1DCC /* addE1.xib */,
+				FC2499E722D8580700DF1DCC /* addE2.xib */,
+				FC2499E822D8580700DF1DCC /* addE3.xib */,
+				FC2499E922D8580800DF1DCC /* addE4.xib */,
+			);
+			path = ECOB_addEmail;
+			sourceTree = "<group>";
+		};
+		FC2499F722D8598800DF1DCC /* ECOB_import */ = {
+			isa = PBXGroup;
+			children = (
+				FC2499EF22D8597500DF1DCC /* imp1.xib */,
+				FC2499F022D8597600DF1DCC /* imp2.xib */,
+			);
+			path = ECOB_import;
+			sourceTree = "<group>";
+		};
+		FC2499F822D8599C00DF1DCC /* ECOB_reminder */ = {
+			isa = PBXGroup;
+			children = (
+				FC2499F122D8597700DF1DCC /* rem1.xib */,
+				FC2499F222D8597700DF1DCC /* rem2.xib */,
+			);
+			path = ECOB_reminder;
+			sourceTree = "<group>";
+		};
+		FC249A0322DC3E9400DF1DCC /* cftLoc_OB */ = {
+			isa = PBXGroup;
+			children = (
+				FC2499F922DC3E8B00DF1DCC /* cft1.xib */,
+				FC2499FA22DC3E8B00DF1DCC /* cft2.xib */,
+				FC2499FB22DC3E8C00DF1DCC /* cft3.xib */,
+				FC2499FC22DC3E8C00DF1DCC /* cft4.xib */,
+				FC2499FD22DC3E8D00DF1DCC /* cft5.xib */,
+			);
+			name = cftLoc_OB;
+			sourceTree = "<group>";
+		};
+		FC249A0722DC85C800DF1DCC /* TC_OB */ = {
+			isa = PBXGroup;
+			children = (
+				FC249A1A22DC8A6D00DF1DCC /* TCOB_addMembers */,
+				FC249A0F22DC89DE00DF1DCC /* TCOB_createMessage */,
+				FC249A0A22DC899500DF1DCC /* TCOB_createCamp */,
+				FC249A0822DC85FC00DF1DCC /* TCHelpView.swift */,
+			);
+			name = TC_OB;
+			sourceTree = "<group>";
+		};
+		FC249A0A22DC899500DF1DCC /* TCOB_createCamp */ = {
+			isa = PBXGroup;
+			children = (
+				FC249A0B22DC89CC00DF1DCC /* createTCamp1.xib */,
+				FC249A0C22DC89CF00DF1DCC /* createTCamp2.xib */,
+			);
+			path = TCOB_createCamp;
+			sourceTree = "<group>";
+		};
+		FC249A0F22DC89DE00DF1DCC /* TCOB_createMessage */ = {
+			isa = PBXGroup;
+			children = (
+				FC249A1022DC8A0400DF1DCC /* createMessage1.xib */,
+				FC249A1122DC8A0400DF1DCC /* createMessage2.xib */,
+				FC249A1222DC8A0500DF1DCC /* createMessage3.xib */,
+				FC249A1322DC8A0600DF1DCC /* createMessage4.xib */,
+				FC249A1422DC8A0700DF1DCC /* createMessage5.xib */,
+			);
+			path = TCOB_createMessage;
+			sourceTree = "<group>";
+		};
+		FC249A1A22DC8A6D00DF1DCC /* TCOB_addMembers */ = {
+			isa = PBXGroup;
+			children = (
+				FC249A1B22DC8AA200DF1DCC /* addMember1.xib */,
+				FC249A1C22DC8AA200DF1DCC /* addMember2.xib */,
+				FC249A1D22DC8AA300DF1DCC /* addMember3.xib */,
+				FC249A1E22DC8AA400DF1DCC /* addMember4.xib */,
+			);
+			path = TCOB_addMembers;
+			sourceTree = "<group>";
+		};
 		FC4357262283D74200F42E74 /* My Customer */ = {
 			isa = PBXGroup;
 			children = (
+				FC0A8B8F22E6B34F0047B1F0 /* OBCustomers */,
 				FC4357272283D75B00F42E74 /* MyCustomers.storyboard */,
 				FC4357292283D77F00F42E74 /* MyCustomersView.swift */,
 				FC43572B2283D98900F42E74 /* AddCustomerView.swift */,
 				FC43572D2283DA7000F42E74 /* EditCustomerView.swift */,
+				FC0A8B9022E6B7270047B1F0 /* HelpMyCustomers.swift */,
 			);
 			path = "My Customer";
 			sourceTree = "<group>";
@@ -793,11 +1150,13 @@
 		FC43572F2283E14300F42E74 /* My Recruits */ = {
 			isa = PBXGroup;
 			children = (
+				FC7E2F9722E8054500EA9DE1 /* OBRecruit */,
 				FC4357302283E15E00F42E74 /* MyRecruits.storyboard */,
 				FC4357362283E1E500F42E74 /* MyRecruitsView.swift */,
 				FC4357322283E1A700F42E74 /* AddRecruitView.swift */,
 				FC4357342283E1BC00F42E74 /* EditRecruitView.swift */,
 				FC4A61FC2283F0E6003D5B2F /* RecruitDetailsView.swift */,
+				FC7E2FB222E8057B00EA9DE1 /* HelpMyRecruit.swift */,
 			);
 			name = "My Recruits";
 			path = ..;
@@ -806,6 +1165,8 @@
 		FC4A61FE22840640003D5B2F /* My Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				FC0A8B7222E05F1F0047B1F0 /* OBContacts */,
+				FC0A8B7022E05B500047B1F0 /* HelpMyContacts.swift */,
 				FC0DABBD229EA7EB00C5CFFA /* RSKPlaceholderTextView.swift */,
 				FC6514D722844D0A00AD0B45 /* EPContactPicker */,
 				FC4A61FF22840661003D5B2F /* MyContacts.storyboard */,
@@ -877,6 +1238,7 @@
 		FC6514E5228513F100AD0B45 /* EC */ = {
 			isa = PBXGroup;
 			children = (
+				FC99F77E22D837FD0034289C /* EC_OB */,
 				FC6514E62285140C00AD0B45 /* EC.storyboard */,
 				FC6514E82285142C00AD0B45 /* ECListing.swift */,
 				FC6514EA22851B6E00AD0B45 /* ECCell.swift */,
@@ -918,6 +1280,52 @@
 			path = "Weekly Tracking";
 			sourceTree = "<group>";
 		};
+		FC7E2F9722E8054500EA9DE1 /* OBRecruit */ = {
+			isa = PBXGroup;
+			children = (
+				FC7E2F9922E8055500EA9DE1 /* obRecruit1.xib */,
+				FC7E2FA322E8055B00EA9DE1 /* obRecruit2.xib */,
+				FC7E2F9F22E8055900EA9DE1 /* obRecruit3.xib */,
+				FC7E2FA422E8055C00EA9DE1 /* obRecruit4.xib */,
+				FC7E2F9822E8055500EA9DE1 /* obRecruit5.xib */,
+				FC7E2F9D22E8055700EA9DE1 /* obRecruit6.xib */,
+				FC7E2FA022E8055900EA9DE1 /* obRecruit7.xib */,
+				FC7E2F9A22E8055600EA9DE1 /* obRecruit8.xib */,
+				FC7E2F9B22E8055600EA9DE1 /* obRecruit9.xib */,
+				FC7E2FA222E8055A00EA9DE1 /* obRecruit10.xib */,
+				FC7E2F9E22E8055800EA9DE1 /* obRecruit11.xib */,
+				FC7E2FA122E8055A00EA9DE1 /* obRecruit12.xib */,
+				FC7E2F9C22E8055700EA9DE1 /* obRecruit13.xib */,
+			);
+			path = OBRecruit;
+			sourceTree = "<group>";
+		};
+		FC7E2FB822E95F0900EA9DE1 /* OBDailyChecklist */ = {
+			isa = PBXGroup;
+			children = (
+				FC7E2FBC22E95F8100EA9DE1 /* obDailyCheck1.xib */,
+				FC7E2FB922E95F7E00EA9DE1 /* obDailyCheck2.xib */,
+				FC7E2FBD22E95F8200EA9DE1 /* obDailyCheck3.xib */,
+				FC7E2FBB22E95F8000EA9DE1 /* obDailyCheck4.xib */,
+				FC7E2FBA22E95F7F00EA9DE1 /* obDailyCheck5.xib */,
+			);
+			path = OBDailyChecklist;
+			sourceTree = "<group>";
+		};
+		FC90A2F822E9B94300C6D9A7 /* obMyGroups */ = {
+			isa = PBXGroup;
+			children = (
+				FC90A2FD22E9BE7A00C6D9A7 /* obGrp1.xib */,
+				FC90A2FB22E9BE7900C6D9A7 /* obGrp2.xib */,
+				FC90A2FC22E9BE7900C6D9A7 /* obGrp3.xib */,
+				FC90A2FF22E9BE7B00C6D9A7 /* obGrp4.xib */,
+				FC90A30022E9BE7C00C6D9A7 /* obGrp5.xib */,
+				FC90A2FE22E9BE7B00C6D9A7 /* obGrp6.xib */,
+				FC90A2F922E9B96500C6D9A7 /* HelpMyGroups.swift */,
+			);
+			path = obMyGroups;
+			sourceTree = "<group>";
+		};
 		FC9182A52292E85C0008AF0F /* User Profile */ = {
 			isa = PBXGroup;
 			children = (
@@ -928,9 +1336,23 @@
 			name = "User Profile";
 			sourceTree = "<group>";
 		};
+		FC99F77E22D837FD0034289C /* EC_OB */ = {
+			isa = PBXGroup;
+			children = (
+				FC2499F722D8598800DF1DCC /* ECOB_import */,
+				FC2499F822D8599C00DF1DCC /* ECOB_reminder */,
+				FC2499EE22D8582500DF1DCC /* ECOB_addEmail */,
+				FC2499E522D855AA00DF1DCC /* ECOB_createCamp */,
+				FC2499DE22D8550100DF1DCC /* ECOB_createTemp */,
+				FC99F78922D8394C0034289C /* ECHelpView.swift */,
+			);
+			path = EC_OB;
+			sourceTree = "<group>";
+		};
 		FC9A015E2281A736008B4835 /* My Groups */ = {
 			isa = PBXGroup;
 			children = (
+				FC90A2F822E9B94300C6D9A7 /* obMyGroups */,
 				FC9A015F2281A763008B4835 /* MyGroups.storyboard */,
 				FC9A01612281A784008B4835 /* MyGroupsDashboard.swift */,
 				FC9A016A2281B1C5008B4835 /* MyGroupCell.swift */,
@@ -954,6 +1376,7 @@
 		FC9A118E228921C200D6BEA8 /* TC */ = {
 			isa = PBXGroup;
 			children = (
+				FC249A0722DC85C800DF1DCC /* TC_OB */,
 				FC9A118F228921E300D6BEA8 /* TC.storyboard */,
 				FC9A11912289222600D6BEA8 /* TCListingView.swift */,
 				FC9A119322892F4900D6BEA8 /* CreateTC.swift */,
@@ -1025,6 +1448,26 @@
 			);
 			name = Siren;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		FCC4B96B22E7279E00C5116B /* OBProspects */ = {
+			isa = PBXGroup;
+			children = (
+				FCC4B97922E728C600C5116B /* obProspect1.xib */,
+				FCC4B97722E728C500C5116B /* obProspect2.xib */,
+				FCC4B97A22E728C600C5116B /* obProspect3.xib */,
+				FCC4B97422E728C300C5116B /* obProspect4.xib */,
+				FCC4B97322E728C200C5116B /* obProspect5.xib */,
+				FCC4B96E22E728BF00C5116B /* obProspect6.xib */,
+				FCC4B97022E728C100C5116B /* obProspect7.xib */,
+				FCC4B97522E728C300C5116B /* obProspect8.xib */,
+				FCC4B97122E728C100C5116B /* obProspect9.xib */,
+				FCC4B96F22E728C000C5116B /* obProspect10.xib */,
+				FCC4B97222E728C200C5116B /* obProspect11.xib */,
+				FCC4B97622E728C400C5116B /* obProspect12.xib */,
+				FCC4B97822E728C500C5116B /* obProspect13.xib */,
+			);
+			path = OBProspects;
 			sourceTree = "<group>";
 		};
 		FCC8E99F228D15A80092B54D /* CFT Dashboard */ = {
@@ -1189,6 +1632,7 @@
 		FCFEEA4E228292380002D8B2 /* My Prospects */ = {
 			isa = PBXGroup;
 			children = (
+				FCC4B96B22E7279E00C5116B /* OBProspects */,
 				FCFEEA51228292850002D8B2 /* MyProspects.storyboard */,
 				FCFEEA4F228292710002D8B2 /* MyProspectsView.swift */,
 				FCFEEA53228294000002D8B2 /* CrmCell.swift */,
@@ -1202,6 +1646,7 @@
 				FC4357202283472400F42E74 /* AddEmailsToEC.swift */,
 				FC43572222834B1E00F42E74 /* AssignCampaignCell.swift */,
 				FC4357242283C3DD00F42E74 /* AddToGroupView.swift */,
+				FCC4B96C22E727CA00C5116B /* HelpMyProspects.swift */,
 			);
 			path = "My Prospects";
 			sourceTree = "<group>";
@@ -1319,47 +1764,142 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7E2FB122E8055C00EA9DE1 /* obRecruit4.xib in Resources */,
+				FC90A30422E9BE7C00C6D9A7 /* obGrp6.xib in Resources */,
 				FC9A01682281ABC8008B4835 /* DAOSearchBar.bundle in Resources */,
+				FCC4B97E22E728C700C5116B /* obProspect9.xib in Resources */,
+				FC2499FF22DC3E8D00DF1DCC /* cft2.xib in Resources */,
+				FC90A30222E9BE7C00C6D9A7 /* obGrp3.xib in Resources */,
+				FC249A1F22DC8AA400DF1DCC /* addMember1.xib in Resources */,
+				FC249A1722DC8A0700DF1DCC /* createMessage3.xib in Resources */,
+				FC249A0222DC3E8D00DF1DCC /* cft5.xib in Resources */,
+				FC0A8B7722E060070047B1F0 /* obContact2.xib in Resources */,
 				FC1908EA22803FD100F97B4F /* DrawerCell.xib in Resources */,
+				FC7E2FAA22E8055C00EA9DE1 /* obRecruit6.xib in Resources */,
 				FC1C28EC22981198005B9085 /* MQ.storyboard in Resources */,
 				FCEEB9D0228B0C970037E41F /* CustomInfoWindow.xib in Resources */,
+				FC6EE5A522E6BC25007A3915 /* obCust10.xib in Resources */,
 				FC6D9F952280C637007AE0DB /* WT.storyboard in Resources */,
+				FC249A1522DC8A0700DF1DCC /* createMessage1.xib in Resources */,
 				FC09F8042282EBAF0043A43D /* PMAlertController.xib in Resources */,
 				FCEEB9CF228B0C970037E41F /* AddressInfoWindow.xib in Resources */,
+				FC6EE5AF22E6BC25007A3915 /* obCust5.xib in Resources */,
+				FC249A0E22DC89CF00DF1DCC /* createTCamp2.xib in Resources */,
 				FC6514E72285140C00AD0B45 /* EC.storyboard in Resources */,
+				FC7E2FBF22E95F8200EA9DE1 /* obDailyCheck5.xib in Resources */,
+				FC7E2FAD22E8055C00EA9DE1 /* obRecruit7.xib in Resources */,
+				FC2499EB22D8580800DF1DCC /* addE2.xib in Resources */,
+				FC6EE5AB22E6BC25007A3915 /* obCust9.xib in Resources */,
+				FC7E2FA722E8055C00EA9DE1 /* obRecruit8.xib in Resources */,
 				FC92F220229B9CFA000DB49C /* Packages.storyboard in Resources */,
+				FC2499F522D8597700DF1DCC /* rem1.xib in Resources */,
+				FC7E2FAB22E8055C00EA9DE1 /* obRecruit11.xib in Resources */,
+				FC7E2FAC22E8055C00EA9DE1 /* obRecruit3.xib in Resources */,
+				FC90A30322E9BE7C00C6D9A7 /* obGrp1.xib in Resources */,
 				FCAACD99229105BD00819CE8 /* TopTenScore.storyboard in Resources */,
+				FC6EE5AA22E6BC25007A3915 /* obCust6.xib in Resources */,
 				FCC964E722902931007B86A5 /* credentials.plist in Resources */,
+				FCC4B98422E728C700C5116B /* obProspect2.xib in Resources */,
 				FCC8E9A1228D15C30092B54D /* CFT.storyboard in Resources */,
+				FC249A1822DC8A0700DF1DCC /* createMessage4.xib in Resources */,
+				FCC4B98122E728C700C5116B /* obProspect4.xib in Resources */,
+				FC0A8B8022E061270047B1F0 /* obContact4.xib in Resources */,
+				FC7E2FBE22E95F8200EA9DE1 /* obDailyCheck2.xib in Resources */,
+				FC0A8B8222E061270047B1F0 /* obContact5.xib in Resources */,
+				FC7E2FAE22E8055C00EA9DE1 /* obRecruit12.xib in Resources */,
+				FC249A1922DC8A0700DF1DCC /* createMessage5.xib in Resources */,
+				FC0A8B7422E05F6D0047B1F0 /* obContact1.xib in Resources */,
 				FC4BD91B228E73270021CEE1 /* CFTFeedback.storyboard in Resources */,
+				FC7E2FC222E95F8200EA9DE1 /* obDailyCheck3.xib in Resources */,
+				FC90A30122E9BE7C00C6D9A7 /* obGrp2.xib in Resources */,
+				FCC4B97B22E728C700C5116B /* obProspect6.xib in Resources */,
+				FC7E2FA922E8055C00EA9DE1 /* obRecruit13.xib in Resources */,
 				FCC8E9A8228D1BDF0092B54D /* WeeklyGraph.storyboard in Resources */,
+				FC99F78522D838150034289C /* Template2.xib in Resources */,
+				FCC4B98622E728C700C5116B /* obProspect1.xib in Resources */,
 				FCA1879F228160AA009C1E88 /* AEG.storyboard in Resources */,
+				FC99F78622D838150034289C /* Template5.xib in Resources */,
+				FCC4B98222E728C700C5116B /* obProspect8.xib in Resources */,
 				FC1908F32280414A00F97B4F /* Dashboard.storyboard in Resources */,
+				FC6EE5A322E6BC25007A3915 /* obCust1.xib in Resources */,
+				FC2499FE22DC3E8D00DF1DCC /* cft1.xib in Resources */,
+				FC249A0D22DC89CF00DF1DCC /* createTCamp1.xib in Resources */,
 				FCC992252280182C00C1B354 /* LaunchScreen.storyboard in Resources */,
+				FC2499ED22D8580800DF1DCC /* addE4.xib in Resources */,
 				FCFEEA52228292850002D8B2 /* MyProspects.storyboard in Resources */,
+				FC0A8B7F22E061270047B1F0 /* obContact7.xib in Resources */,
 				FC6514E122844D3400AD0B45 /* EPContactCell.xib in Resources */,
+				FC7E2FA822E8055C00EA9DE1 /* obRecruit9.xib in Resources */,
 				FC1BF9E322A78A4600771602 /* AwesomeSpotlightViewBundle.bundle in Resources */,
+				FCC4B97C22E728C700C5116B /* obProspect10.xib in Resources */,
+				FC7E2FB022E8055C00EA9DE1 /* obRecruit2.xib in Resources */,
+				FC7E2FAF22E8055C00EA9DE1 /* obRecruit10.xib in Resources */,
 				FC1908EC22803FD100F97B4F /* DrawerSubmenuCell.xib in Resources */,
+				FC2499E122D8558500DF1DCC /* camp2.xib in Resources */,
 				FC1FB9442293AE3A0045D4D9 /* Subscription.storyboard in Resources */,
+				FC7E2FA522E8055C00EA9DE1 /* obRecruit5.xib in Resources */,
 				FC1BF9D722A772C800771602 /* OB.storyboard in Resources */,
+				FCC4B98022E728C700C5116B /* obProspect5.xib in Resources */,
+				FC0A8B8A22E061750047B1F0 /* obContact9.xib in Resources */,
+				FC6EE5A622E6BC25007A3915 /* obCust13.xib in Resources */,
+				FCC4B98522E728C700C5116B /* obProspect13.xib in Resources */,
 				FCFB23992290767300133055 /* TA.storyboard in Resources */,
+				FC249A2022DC8AA400DF1DCC /* addMember2.xib in Resources */,
 				FC6514D62284207E00AD0B45 /* GoogleService-Info.plist in Resources */,
+				FC90A30622E9BE7C00C6D9A7 /* obGrp5.xib in Resources */,
+				FC2499F422D8597700DF1DCC /* imp2.xib in Resources */,
+				FC2499F622D8597700DF1DCC /* rem2.xib in Resources */,
+				FC6EE5A922E6BC25007A3915 /* obCust7.xib in Resources */,
+				FC0A8B8922E061750047B1F0 /* obContact12.xib in Resources */,
+				FC6EE5A422E6BC25007A3915 /* obCust8.xib in Resources */,
 				FC1FB94D2293B26D0045D4D9 /* Refferal.storyboard in Resources */,
+				FC2499EC22D8580800DF1DCC /* addE3.xib in Resources */,
+				FC6EE5A722E6BC25007A3915 /* obCust12.xib in Resources */,
+				FC6EE5AE22E6BC25007A3915 /* obCust11.xib in Resources */,
+				FC249A1622DC8A0700DF1DCC /* createMessage2.xib in Resources */,
+				FC6EE5AC22E6BC25007A3915 /* obCust2.xib in Resources */,
+				FC7E2FC022E95F8200EA9DE1 /* obDailyCheck4.xib in Resources */,
+				FC7E2FA622E8055C00EA9DE1 /* obRecruit1.xib in Resources */,
+				FCC4B97F22E728C700C5116B /* obProspect11.xib in Resources */,
+				FC249A2222DC8AA400DF1DCC /* addMember4.xib in Resources */,
 				FC4357312283E15E00F42E74 /* MyRecruits.storyboard in Resources */,
+				FC249A0022DC3E8D00DF1DCC /* cft3.xib in Resources */,
+				FC0A8B8C22E061750047B1F0 /* obContact10.xib in Resources */,
 				FC4BD924228EEFDD0021CEE1 /* Calender.storyboard in Resources */,
+				FC7E2FC122E95F8200EA9DE1 /* obDailyCheck1.xib in Resources */,
+				FCC4B98322E728C700C5116B /* obProspect12.xib in Resources */,
+				FC249A2122DC8AA400DF1DCC /* addMember3.xib in Resources */,
+				FC2499E422D855A000DF1DCC /* camp3.xib in Resources */,
 				FC1F2D04228AC9FD0006AE79 /* CFTLocator.storyboard in Resources */,
+				FC0A8B8122E061270047B1F0 /* obContact6.xib in Resources */,
+				FC6EE5A822E6BC25007A3915 /* obCust4.xib in Resources */,
 				FC9A01602281A763008B4835 /* MyGroups.storyboard in Resources */,
+				FC99F78722D838150034289C /* Template1.xib in Resources */,
 				FCC992222280182C00C1B354 /* Assets.xcassets in Resources */,
+				FC90A30522E9BE7C00C6D9A7 /* obGrp4.xib in Resources */,
 				FC4A620022840661003D5B2F /* MyContacts.storyboard in Resources */,
+				FC0A8B7E22E061270047B1F0 /* obContact8.xib in Resources */,
 				FC9182A72292E86F0008AF0F /* Profile.storyboard in Resources */,
+				FC6EE5AD22E6BC25007A3915 /* obCust3.xib in Resources */,
 				FCAACDA0229193F900819CE8 /* VB.storyboard in Resources */,
 				FC1FB9522293BE390045D4D9 /* UploadDoc.storyboard in Resources */,
 				FC1C28F1229828AA005B9085 /* ScratchPad.storyboard in Resources */,
 				FC1FB95A229434F30045D4D9 /* CMS.storyboard in Resources */,
+				FC2499EA22D8580800DF1DCC /* addE1.xib in Resources */,
+				FC0A8B8B22E061750047B1F0 /* obContact11.xib in Resources */,
+				FC2499E222D8558500DF1DCC /* camp1.xib in Resources */,
+				FCC4B98722E728C700C5116B /* obProspect3.xib in Resources */,
 				FC4357282283D75B00F42E74 /* MyCustomers.storyboard in Resources */,
+				FC99F78422D838150034289C /* Template3.xib in Resources */,
+				FC0A8B8822E061750047B1F0 /* obContact13.xib in Resources */,
+				FC249A0122DC3E8D00DF1DCC /* cft4.xib in Resources */,
+				FC0A8B7822E060070047B1F0 /* obContact3.xib in Resources */,
 				FCC992202280182B00C1B354 /* Main.storyboard in Resources */,
+				FC2499F322D8597700DF1DCC /* imp1.xib in Resources */,
 				FC9A1190228921E300D6BEA8 /* TC.storyboard in Resources */,
 				FCC0B1162295117200C633F0 /* Siren.bundle in Resources */,
+				FCC4B97D22E728C700C5116B /* obProspect7.xib in Resources */,
+				FC99F78822D838150034289C /* Template4.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1416,6 +1956,8 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/EAIntroView/EAIntroView.framework",
+				"${BUILT_PRODUCTS_DIR}/EARestrictedScrollView/EARestrictedScrollView.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
@@ -1440,6 +1982,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EAIntroView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EARestrictedScrollView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
@@ -1521,6 +2065,7 @@
 				FC43571D22833E9C00F42E74 /* UIDropDown.swift in Sources */,
 				FCE419E222A13EA500AA9DD7 /* CalendarView+Style.swift in Sources */,
 				FC15DFCA2282C8BD0065A5FF /* PVSwitch.swift in Sources */,
+				FC90A2FA22E9B96500C6D9A7 /* HelpMyGroups.swift in Sources */,
 				FCE42684228968BF00405970 /* AddMemberManually.swift in Sources */,
 				FC6D9F932280C60A007AE0DB /* WeeklyTrackingView.swift in Sources */,
 				FC1908F92280546500F97B4F /* DailyScoreGraphView.swift in Sources */,
@@ -1545,6 +2090,7 @@
 				FCC9924D22801CDF00C1B354 /* Extension.swift in Sources */,
 				FC9A01662281ABBC008B4835 /* DAOSearchBar.swift in Sources */,
 				FCE419E622A13EA500AA9DD7 /* CalendarView.swift in Sources */,
+				FC0A8B7122E05B500047B1F0 /* HelpMyContacts.swift in Sources */,
 				FCC8E9B0228D221F0092B54D /* BalloonMarker.swift in Sources */,
 				FC43572C2283D98900F42E74 /* AddCustomerView.swift in Sources */,
 				FC9182A92292E88C0008AF0F /* UserProfileView.swift in Sources */,
@@ -1578,6 +2124,7 @@
 				FC28263E228C7CAF00AB633E /* PrivacyOptionView.swift in Sources */,
 				FCEEB9DC228BAEC00037E41F /* BottomPopupPresentationController.swift in Sources */,
 				FCC0B1152295117200C633F0 /* SirenError.swift in Sources */,
+				FC7E2FB722E95E1300EA9DE1 /* HelpDailyChecklist.swift in Sources */,
 				FC6514E022844D3400AD0B45 /* EPContactCell.swift in Sources */,
 				FCBDF87122866EDD0077B1F0 /* ScheduleEmailDetails.swift in Sources */,
 				FC1FB9462293AF330045D4D9 /* MySubscriptionVC.swift in Sources */,
@@ -1622,6 +2169,7 @@
 				FC1908F12280413400F97B4F /* DashboardView.swift in Sources */,
 				FC6514EB22851B6E00AD0B45 /* ECCell.swift in Sources */,
 				FCC9921D2280182B00C1B354 /* LoginView.swift in Sources */,
+				FC0A8B9122E6B7280047B1F0 /* HelpMyCustomers.swift in Sources */,
 				FC9A11982289365300D6BEA8 /* TextMessageView.swift in Sources */,
 				FC59EAA62285738D00AEAC44 /* AddEmailsManually.swift in Sources */,
 				FCE426902289B94700405970 /* CreateTextMessage.swift in Sources */,
@@ -1639,6 +2187,7 @@
 				FC4BD928228EFF420021CEE1 /* EventListView.swift in Sources */,
 				FC43572E2283DA7000F42E74 /* EditCustomerView.swift in Sources */,
 				FCBDF8732286778B0077B1F0 /* ImportEmailTemplates.swift in Sources */,
+				FC249A0922DC85FC00DF1DCC /* TCHelpView.swift in Sources */,
 				FCE419E522A13EA500AA9DD7 /* CalendarDayCell.swift in Sources */,
 				FC1908DB22802F1E00F97B4F /* SKActivityIndicatorViewStyle.swift in Sources */,
 				FC1908DC22802F1E00F97B4F /* SKActivityIndicatorView.swift in Sources */,
@@ -1647,6 +2196,7 @@
 				FC28263C228C18BE00AB633E /* SearchTextField.swift in Sources */,
 				FC6514E92285142C00AD0B45 /* ECListing.swift in Sources */,
 				FCC8E9B2228D35810092B54D /* CFTDashboard.swift in Sources */,
+				FC99F78A22D8394C0034289C /* ECHelpView.swift in Sources */,
 				FCBDF8792286AFB70077B1F0 /* TemplateSelectionView.swift in Sources */,
 				FCE4268E2289B2FF00405970 /* TCScheduleDetails.swift in Sources */,
 				FC9A01622281A784008B4835 /* MyGroupsDashboard.swift in Sources */,
@@ -1656,11 +2206,13 @@
 				FC9A1196228930DA00D6BEA8 /* RenameTC.swift in Sources */,
 				FC3A75F4228F31A2000FC962 /* AddEvent.swift in Sources */,
 				FCFEEA50228292710002D8B2 /* MyProspectsView.swift in Sources */,
+				FC7E2FB322E8057B00EA9DE1 /* HelpMyRecruit.swift in Sources */,
 				FCEEB9DD228BAEC00037E41F /* BottomPopupDismissInteractionController.swift in Sources */,
 				FC1FB962229436E80045D4D9 /* ContactSupport.swift in Sources */,
 				FC92F21A229B8BD2000DB49C /* ScratchPadNotificationView.swift in Sources */,
 				FC4BD91F228E7FD90021CEE1 /* CFTConversationView.swift in Sources */,
 				FCEEB9DE228BAEC00037E41F /* BottomPopupViewController.swift in Sources */,
+				FCC4B96D22E727CA00C5116B /* HelpMyProspects.swift in Sources */,
 				FCC0B1112295117200C633F0 /* SirenUIAlertControllerExtension.swift in Sources */,
 				FCC964E1228FD7DF007B86A5 /* PopUpWeeklyEventView.swift in Sources */,
 				FC1908D622802A2F00F97B4F /* CFTMapLaunchVC.swift in Sources */,
@@ -1777,7 +2329,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1838,7 +2390,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1868,7 +2420,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = SENew/SENew.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = DQNFZKB5Y2;
 				INFOPLIST_FILE = SENew/Info.plist;
@@ -1877,9 +2429,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bringmax.BringMaxDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bundle.Successen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "BringMax Demo Dev Prof";
+				PROVISIONING_PROFILE_SPECIFIER = SuccessEntellusFinal;
 				SWIFT_OBJC_BRIDGING_HEADER = "SENew/SE Dashboard/SENew-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -1894,7 +2446,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = SENew/SENew.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = DQNFZKB5Y2;
 				INFOPLIST_FILE = SENew/Info.plist;
@@ -1903,9 +2455,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bringmax.BringMaxDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bundle.Successen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "BringMax Demo Dev Prof";
+				PROVISIONING_PROFILE_SPECIFIER = SuccessEntellusFinal;
 				SWIFT_OBJC_BRIDGING_HEADER = "SENew/SE Dashboard/SENew-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;

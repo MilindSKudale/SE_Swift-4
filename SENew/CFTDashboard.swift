@@ -582,7 +582,7 @@ extension CFTDashboard : ChartViewDelegate {
     }
     
     func getGraphData(){
-        let dictParam = ["user_id": userID,
+        let dictParam = ["user_id": self.CFTUserId,
                          "platform" : "3"]
         typealias JSONDictionary = [String:Any]
         OBJCOM.modalAPICall(Action: "getGraphInfo", param:dictParam as [String : AnyObject],  vcObject: self){

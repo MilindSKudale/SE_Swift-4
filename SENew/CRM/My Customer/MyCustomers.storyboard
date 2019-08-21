@@ -1042,7 +1042,7 @@
             <objects>
                 <tableViewController storyboardIdentifier="idEditCustomerView" id="So9-O6-bk5" customClass="EditCustomerView" customModule="SENew" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="cRg-ct-rv7">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="separatorColor" red="0.0" green="0.32156862749999998" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2397,10 +2397,242 @@
             </objects>
             <point key="canvasLocation" x="145" y="1365"/>
         </scene>
+        <!--Help My Customers-->
+        <scene sceneID="t1F-O1-vyh">
+            <objects>
+                <viewController storyboardIdentifier="idHelpMyCustomers" id="7fF-hN-YD0" customClass="HelpMyCustomers" customModule="SENew" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tyD-eN-LwS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xwY-ir-RfY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M06-Cz-N5s">
+                                        <rect key="frame" x="8" y="21" width="40" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="1LK-D4-4im"/>
+                                            <constraint firstAttribute="height" constant="35" id="YpZ-iY-G4x"/>
+                                        </constraints>
+                                        <state key="normal" image="cancel_white"/>
+                                        <connections>
+                                            <action selector="actionClose:" destination="7fF-hN-YD0" eventType="touchUpInside" id="YiW-I0-8Qd"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help : My Customers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FnW-PC-kCb">
+                                        <rect key="frame" x="75" y="21" width="165" height="35"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kEK-gY-JlR">
+                                        <rect key="frame" x="0.0" y="63" width="375" height="1"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="C2u-ac-cuQ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="0Sa-4L-R5y"/>
+                                    <constraint firstAttribute="bottom" secondItem="kEK-gY-JlR" secondAttribute="bottom" id="0nh-Ry-9JQ"/>
+                                    <constraint firstItem="FnW-PC-kCb" firstAttribute="centerX" secondItem="xwY-ir-RfY" secondAttribute="centerX" constant="-30" id="2B2-Pk-Dty"/>
+                                    <constraint firstAttribute="bottom" secondItem="FnW-PC-kCb" secondAttribute="bottom" constant="8" id="75j-9s-Hye"/>
+                                    <constraint firstItem="kEK-gY-JlR" firstAttribute="leading" secondItem="xwY-ir-RfY" secondAttribute="leading" id="FB4-G6-ZSl"/>
+                                    <constraint firstAttribute="trailing" secondItem="kEK-gY-JlR" secondAttribute="trailing" id="gp9-3E-sIq"/>
+                                    <constraint firstAttribute="bottom" secondItem="M06-Cz-N5s" secondAttribute="bottom" constant="8" id="mqQ-kH-D3M"/>
+                                    <constraint firstItem="M06-Cz-N5s" firstAttribute="leading" secondItem="xwY-ir-RfY" secondAttribute="leading" constant="8" id="q1Y-lv-Gel"/>
+                                    <constraint firstItem="FnW-PC-kCb" firstAttribute="height" secondItem="M06-Cz-N5s" secondAttribute="height" id="xyM-4b-fLK"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X2I-fY-3AF">
+                                <rect key="frame" x="15" y="181" width="345" height="325"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i9I-PA-nYw">
+                                        <rect key="frame" x="10" y="15" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="2Y8-fu-pHU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to add new customer?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionBtn1:" destination="7fF-hN-YD0" eventType="touchUpInside" id="cmp-C0-rgt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pp1-mr-OS8">
+                                        <rect key="frame" x="10" y="65" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="UL3-eY-iXn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to assign email campaigns to customer?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionBtn2:" destination="7fF-hN-YD0" eventType="touchUpInside" id="ow7-c9-rmw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nps-y9-b54">
+                                        <rect key="frame" x="10" y="115" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="qhD-Yd-p4c"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to assign tag to customer?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionBtn3:" destination="7fF-hN-YD0" eventType="touchUpInside" id="8Zf-xl-vMM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="raP-3U-Xkg">
+                                        <rect key="frame" x="10" y="165" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Ags-0P-ayU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to do actions on multiple customer?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionBtn4:" destination="7fF-hN-YD0" eventType="touchUpInside" id="jXg-5a-qrT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jxt-RP-9KD">
+                                        <rect key="frame" x="10" y="215" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="YiU-oZ-0iT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to import/export customer?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionBtn5:" destination="7fF-hN-YD0" eventType="touchUpInside" id="RAP-mo-Vja"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Bp-NN-hLR">
+                                        <rect key="frame" x="10" y="265" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="bxv-cd-jar"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to sort customer?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionBtn6:" destination="7fF-hN-YD0" eventType="touchUpInside" id="WcT-5w-lqe"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="5Bp-NN-hLR" secondAttribute="bottom" constant="20" id="0HU-TO-eRV"/>
+                                    <constraint firstItem="jxt-RP-9KD" firstAttribute="leading" secondItem="X2I-fY-3AF" secondAttribute="leading" constant="10" id="Bz2-A0-6k7"/>
+                                    <constraint firstItem="nps-y9-b54" firstAttribute="leading" secondItem="X2I-fY-3AF" secondAttribute="leading" constant="10" id="Izr-3N-gEU"/>
+                                    <constraint firstItem="jxt-RP-9KD" firstAttribute="top" secondItem="raP-3U-Xkg" secondAttribute="bottom" constant="10" id="KJ6-xq-wVy"/>
+                                    <constraint firstItem="raP-3U-Xkg" firstAttribute="top" secondItem="nps-y9-b54" secondAttribute="bottom" constant="10" id="P9l-OZ-jpg"/>
+                                    <constraint firstItem="i9I-PA-nYw" firstAttribute="leading" secondItem="X2I-fY-3AF" secondAttribute="leading" constant="10" id="PhD-xN-R18"/>
+                                    <constraint firstItem="i9I-PA-nYw" firstAttribute="top" secondItem="X2I-fY-3AF" secondAttribute="top" constant="15" id="SGa-uJ-UmX"/>
+                                    <constraint firstItem="Pp1-mr-OS8" firstAttribute="leading" secondItem="X2I-fY-3AF" secondAttribute="leading" constant="10" id="YhX-do-Qm7"/>
+                                    <constraint firstAttribute="trailing" secondItem="i9I-PA-nYw" secondAttribute="trailing" constant="10" id="arH-vm-n46"/>
+                                    <constraint firstAttribute="trailing" secondItem="jxt-RP-9KD" secondAttribute="trailing" constant="10" id="cVf-2d-aIm"/>
+                                    <constraint firstAttribute="trailing" secondItem="raP-3U-Xkg" secondAttribute="trailing" constant="10" id="eFd-uu-pkr"/>
+                                    <constraint firstAttribute="trailing" secondItem="nps-y9-b54" secondAttribute="trailing" constant="10" id="iIq-5R-xBT"/>
+                                    <constraint firstItem="5Bp-NN-hLR" firstAttribute="top" secondItem="jxt-RP-9KD" secondAttribute="bottom" constant="10" id="o44-Gd-HSP"/>
+                                    <constraint firstItem="Pp1-mr-OS8" firstAttribute="top" secondItem="i9I-PA-nYw" secondAttribute="bottom" constant="10" id="ojz-YK-G6e"/>
+                                    <constraint firstItem="nps-y9-b54" firstAttribute="top" secondItem="Pp1-mr-OS8" secondAttribute="bottom" constant="10" id="pIA-uS-kBO"/>
+                                    <constraint firstItem="5Bp-NN-hLR" firstAttribute="leading" secondItem="X2I-fY-3AF" secondAttribute="leading" constant="10" id="pmU-Wf-rgO"/>
+                                    <constraint firstItem="raP-3U-Xkg" firstAttribute="leading" secondItem="X2I-fY-3AF" secondAttribute="leading" constant="10" id="uWX-VE-7Fe"/>
+                                    <constraint firstAttribute="trailing" secondItem="Pp1-mr-OS8" secondAttribute="trailing" constant="10" id="x3L-es-SCq"/>
+                                    <constraint firstAttribute="trailing" secondItem="5Bp-NN-hLR" secondAttribute="trailing" constant="10" id="zSP-3i-vT2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.69999999999999996"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="X2I-fY-3AF" secondAttribute="trailing" constant="15" id="BGM-25-ey4"/>
+                            <constraint firstItem="xwY-ir-RfY" firstAttribute="top" secondItem="tyD-eN-LwS" secondAttribute="top" id="Lah-hx-PXr"/>
+                            <constraint firstItem="xwY-ir-RfY" firstAttribute="leading" secondItem="Thu-DQ-tLg" secondAttribute="leading" id="exd-pw-meC"/>
+                            <constraint firstItem="Thu-DQ-tLg" firstAttribute="trailing" secondItem="xwY-ir-RfY" secondAttribute="trailing" id="foT-tM-Ffr"/>
+                            <constraint firstItem="X2I-fY-3AF" firstAttribute="centerY" secondItem="Thu-DQ-tLg" secondAttribute="centerY" id="k18-N0-G9D"/>
+                            <constraint firstItem="X2I-fY-3AF" firstAttribute="leading" secondItem="Thu-DQ-tLg" secondAttribute="leading" constant="15" id="xjB-LN-NO7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Thu-DQ-tLg"/>
+                    </view>
+                    <connections>
+                        <outlet property="bgView" destination="X2I-fY-3AF" id="0al-UP-WcP"/>
+                        <outlet property="btn1" destination="i9I-PA-nYw" id="6FW-cy-uwZ"/>
+                        <outlet property="btn2" destination="Pp1-mr-OS8" id="A6G-cI-Jar"/>
+                        <outlet property="btn3" destination="nps-y9-b54" id="ahf-Yq-lio"/>
+                        <outlet property="btn4" destination="raP-3U-Xkg" id="CSJ-bi-Ei5"/>
+                        <outlet property="btn5" destination="jxt-RP-9KD" id="foO-Z5-YRj"/>
+                        <outlet property="btn6" destination="5Bp-NN-hLR" id="iXo-N5-y0r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mvf-Yi-o0m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1482" y="33"/>
+        </scene>
     </scenes>
     <resources>
         <image name="assign_wh" width="22" height="22"/>
         <image name="back" width="17" height="17"/>
+        <image name="btnBg" width="414" height="116"/>
+        <image name="cancel_white" width="22" height="22"/>
         <image name="check" width="17" height="17"/>
         <image name="custom_tag2" width="50" height="50"/>
         <image name="date" width="20" height="20"/>

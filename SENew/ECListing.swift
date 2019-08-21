@@ -88,6 +88,25 @@ class ECListing: SliderVC {
         self.searchView.addSubview(searchBar)
     }
     
+    @IBAction func actionMoreOption(_ sender:AnyObject){
+        
+        let item1 = ActionSheetItem(title: "Help", value: 1)
+        let button = ActionSheetOkButton(title: "Dismiss")
+        let items = [item1, button]
+        let sheet = ActionSheet(items: items) { sheet, item in
+            if item.title != "Dismiss"{
+                if item == item1 {
+                    let storyboard = UIStoryboard(name: "EC", bundle: nil)
+                    let vc = storyboard.instantiateViewController(withIdentifier: "idECHelpView") as! ECHelpView
+                    vc.modalTransitionStyle = .coverVertical
+                    vc.modalPresentationStyle = .custom
+                    vc.view.backgroundColor = UIColor.darkGray.withAlphaComponent(0.8)
+                    self.present(vc, animated: true, completion: nil)
+                }
+            }
+        }
+        sheet.present(in: self, from: self.view)
+    }
 }
 
 extension ECListing : DAOSearchBarDelegate, UITextFieldDelegate {

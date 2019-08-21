@@ -746,9 +746,10 @@ extension MyContactsView {
         let item3 = ActionSheetItem(title: "Import Newly Added Contacts", value: 3)
         let item4 = ActionSheetItem(title: "Import Contacts CSV", value: 4)
         let item5 = ActionSheetItem(title: "Export Contacts", value: 5)
+        let item6 = ActionSheetItem(title: "Help", value: 6)
         
         let button = ActionSheetOkButton(title: "Dismiss")
-        let items = [item1, item2, item3, item4, item5, button]
+        let items = [item1, item2, item3, item4, item5, item6, button]
         let sheet = ActionSheet(items: items) { sheet, item in
             if item.title != "Dismiss"{
                 if item == item1 {
@@ -791,6 +792,13 @@ extension MyContactsView {
                     }
                     print(self.prospectCsvArray)
                     self.createCSV(from: self.prospectCsvArray, crmFlag: "1")
+                }else if item == item6 {
+                    let storyboard = UIStoryboard(name: "MyContacts", bundle: nil)
+                    let vc = storyboard.instantiateViewController(withIdentifier: "idHelpMyContacts") as! HelpMyContacts
+                    vc.modalTransitionStyle = .coverVertical
+                    vc.modalPresentationStyle = .custom
+                    vc.view.backgroundColor = UIColor.darkGray.withAlphaComponent(0.8)
+                    self.present(vc, animated: true, completion: nil)
                 }
             }
         }

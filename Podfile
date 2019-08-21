@@ -22,4 +22,5 @@ target 'SENew' do
   pod 'AMGCalendarManager'
   pod 'PDFReader'
   pod 'Instructions', '~> 1.3.1'
+  pod 'EAIntroView'
 end

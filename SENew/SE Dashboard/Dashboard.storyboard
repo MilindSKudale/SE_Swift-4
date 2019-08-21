@@ -27,11 +27,17 @@
                                 <action selector="actShowMenu:" destination="SMk-Ku-vkN" id="0EN-98-kS5"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="more" id="tx9-Dn-TTZ">
+                            <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <connections>
+                                <action selector="actionMoreOption:" destination="SMk-Ku-vkN" id="MSr-lO-hIe"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8UL-nV-s6b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="794" y="125"/>
+            <point key="canvasLocation" x="769" y="126"/>
         </scene>
         <!--Daily Checklist View-->
         <scene sceneID="xPX-rz-ymb">
@@ -999,6 +1005,7 @@
         <image name="hide_button" width="34" height="34"/>
         <image name="menu" width="22" height="24"/>
         <image name="minimize" width="42" height="42"/>
+        <image name="more" width="12" height="23"/>
         <image name="timeline" width="14" height="15"/>
     </resources>
 </document>

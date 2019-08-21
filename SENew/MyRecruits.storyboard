@@ -2936,11 +2936,242 @@
             </objects>
             <point key="canvasLocation" x="145" y="1365"/>
         </scene>
+        <!--Help My Recruit-->
+        <scene sceneID="KKS-7l-UCd">
+            <objects>
+                <viewController storyboardIdentifier="idHelpMyRecruit" id="VBq-LY-E0k" customClass="HelpMyRecruit" customModule="SENew" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kwq-Me-1kB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hju-6P-Kjz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKe-1T-edw">
+                                        <rect key="frame" x="8" y="21" width="40" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="Fvx-OD-WGb"/>
+                                            <constraint firstAttribute="width" constant="40" id="hz9-8X-mgy"/>
+                                        </constraints>
+                                        <state key="normal" image="cancel_white"/>
+                                        <connections>
+                                            <action selector="actionClose:" destination="VBq-LY-E0k" eventType="touchUpInside" id="oRl-Uh-g0p"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help : My Recruits" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KCc-yv-8PS">
+                                        <rect key="frame" x="85.5" y="21" width="144.5" height="35"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Gm-sD-Qn5">
+                                        <rect key="frame" x="0.0" y="63" width="375" height="1"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="MQp-wY-aGe"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="mKe-1T-edw" firstAttribute="leading" secondItem="Hju-6P-Kjz" secondAttribute="leading" constant="8" id="2vm-oW-pHf"/>
+                                    <constraint firstItem="2Gm-sD-Qn5" firstAttribute="leading" secondItem="Hju-6P-Kjz" secondAttribute="leading" id="AGJ-c5-KWJ"/>
+                                    <constraint firstItem="KCc-yv-8PS" firstAttribute="height" secondItem="mKe-1T-edw" secondAttribute="height" id="Ee0-AC-1I4"/>
+                                    <constraint firstAttribute="trailing" secondItem="2Gm-sD-Qn5" secondAttribute="trailing" id="Jm6-Hm-skP"/>
+                                    <constraint firstAttribute="bottom" secondItem="2Gm-sD-Qn5" secondAttribute="bottom" id="QiK-23-gOO"/>
+                                    <constraint firstAttribute="bottom" secondItem="KCc-yv-8PS" secondAttribute="bottom" constant="8" id="R1Y-hM-Jyr"/>
+                                    <constraint firstAttribute="bottom" secondItem="mKe-1T-edw" secondAttribute="bottom" constant="8" id="d2r-Mp-QPd"/>
+                                    <constraint firstItem="KCc-yv-8PS" firstAttribute="centerX" secondItem="Hju-6P-Kjz" secondAttribute="centerX" constant="-30" id="fFF-yK-QLX"/>
+                                    <constraint firstAttribute="height" constant="64" id="zIe-xW-d0J"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4D8-JP-gTC">
+                                <rect key="frame" x="15" y="181" width="345" height="325"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LaA-wN-Ykw">
+                                        <rect key="frame" x="10" y="15" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="kQV-TV-TX5"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to add new recruit?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionBtn1:" destination="VBq-LY-E0k" eventType="touchUpInside" id="ahA-EF-WAK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Opa-lV-xeq">
+                                        <rect key="frame" x="10" y="65" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="ohb-wT-8cM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to assign email campaigns to recruit?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionBtn2:" destination="VBq-LY-E0k" eventType="touchUpInside" id="ZlK-JS-e8Y"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AlP-DI-vqw">
+                                        <rect key="frame" x="10" y="115" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="awd-3d-RVw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to assign tag to recruit?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionBtn3:" destination="VBq-LY-E0k" eventType="touchUpInside" id="cIz-xQ-0IR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gtf-sv-eVD">
+                                        <rect key="frame" x="10" y="165" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="tdf-Uc-l8W"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to do actions on multiple recruit?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionBtn4:" destination="VBq-LY-E0k" eventType="touchUpInside" id="l1V-3w-d6O"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ca-wZ-QJ8">
+                                        <rect key="frame" x="10" y="215" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="zmT-4I-ECi"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to import/export recruit?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionBtn5:" destination="VBq-LY-E0k" eventType="touchUpInside" id="Z9K-k6-OaW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oX7-NZ-Id7">
+                                        <rect key="frame" x="10" y="265" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Gp7-RI-T3q"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to sort recruits?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionBtn6:" destination="VBq-LY-E0k" eventType="touchUpInside" id="PMv-qN-hzM"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="6ca-wZ-QJ8" secondAttribute="trailing" constant="10" id="1m8-aF-enA"/>
+                                    <constraint firstItem="Opa-lV-xeq" firstAttribute="leading" secondItem="4D8-JP-gTC" secondAttribute="leading" constant="10" id="2n1-JM-oAb"/>
+                                    <constraint firstAttribute="trailing" secondItem="LaA-wN-Ykw" secondAttribute="trailing" constant="10" id="6jB-iT-b8g"/>
+                                    <constraint firstItem="oX7-NZ-Id7" firstAttribute="leading" secondItem="4D8-JP-gTC" secondAttribute="leading" constant="10" id="86A-UA-cMW"/>
+                                    <constraint firstItem="Opa-lV-xeq" firstAttribute="top" secondItem="LaA-wN-Ykw" secondAttribute="bottom" constant="10" id="8DW-2f-dbl"/>
+                                    <constraint firstItem="6ca-wZ-QJ8" firstAttribute="leading" secondItem="4D8-JP-gTC" secondAttribute="leading" constant="10" id="9ME-Ni-7X2"/>
+                                    <constraint firstItem="Gtf-sv-eVD" firstAttribute="top" secondItem="AlP-DI-vqw" secondAttribute="bottom" constant="10" id="JCc-s6-moL"/>
+                                    <constraint firstItem="6ca-wZ-QJ8" firstAttribute="top" secondItem="Gtf-sv-eVD" secondAttribute="bottom" constant="10" id="Kfo-tn-BEa"/>
+                                    <constraint firstItem="Gtf-sv-eVD" firstAttribute="leading" secondItem="4D8-JP-gTC" secondAttribute="leading" constant="10" id="R6v-a3-SMW"/>
+                                    <constraint firstAttribute="trailing" secondItem="Opa-lV-xeq" secondAttribute="trailing" constant="10" id="dfA-nD-kYN"/>
+                                    <constraint firstItem="oX7-NZ-Id7" firstAttribute="top" secondItem="6ca-wZ-QJ8" secondAttribute="bottom" constant="10" id="eoe-o8-M9e"/>
+                                    <constraint firstItem="AlP-DI-vqw" firstAttribute="leading" secondItem="4D8-JP-gTC" secondAttribute="leading" constant="10" id="ewM-W6-G3X"/>
+                                    <constraint firstAttribute="trailing" secondItem="oX7-NZ-Id7" secondAttribute="trailing" constant="10" id="fHY-iB-pmF"/>
+                                    <constraint firstAttribute="trailing" secondItem="Gtf-sv-eVD" secondAttribute="trailing" constant="10" id="g7h-bD-WVR"/>
+                                    <constraint firstItem="LaA-wN-Ykw" firstAttribute="top" secondItem="4D8-JP-gTC" secondAttribute="top" constant="15" id="gK6-Re-uP0"/>
+                                    <constraint firstItem="AlP-DI-vqw" firstAttribute="top" secondItem="Opa-lV-xeq" secondAttribute="bottom" constant="10" id="kdi-hi-HQ1"/>
+                                    <constraint firstItem="LaA-wN-Ykw" firstAttribute="leading" secondItem="4D8-JP-gTC" secondAttribute="leading" constant="10" id="nb2-hu-O7c"/>
+                                    <constraint firstAttribute="bottom" secondItem="oX7-NZ-Id7" secondAttribute="bottom" constant="20" id="qIR-52-ypJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="AlP-DI-vqw" secondAttribute="trailing" constant="10" id="u5v-er-ABu"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.69999999999999996"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QYS-hE-8uZ" firstAttribute="trailing" secondItem="Hju-6P-Kjz" secondAttribute="trailing" id="L0y-uW-Ga7"/>
+                            <constraint firstItem="Hju-6P-Kjz" firstAttribute="top" secondItem="Kwq-Me-1kB" secondAttribute="top" id="OOf-7v-tYM"/>
+                            <constraint firstItem="Hju-6P-Kjz" firstAttribute="leading" secondItem="QYS-hE-8uZ" secondAttribute="leading" id="c4M-gb-vm7"/>
+                            <constraint firstAttribute="trailing" secondItem="4D8-JP-gTC" secondAttribute="trailing" constant="15" id="fe5-Rm-zGl"/>
+                            <constraint firstItem="4D8-JP-gTC" firstAttribute="leading" secondItem="QYS-hE-8uZ" secondAttribute="leading" constant="15" id="nnH-lA-DR4"/>
+                            <constraint firstItem="4D8-JP-gTC" firstAttribute="centerY" secondItem="QYS-hE-8uZ" secondAttribute="centerY" id="t8J-uA-KCt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QYS-hE-8uZ"/>
+                    </view>
+                    <connections>
+                        <outlet property="bgView" destination="4D8-JP-gTC" id="SHQ-f8-9fR"/>
+                        <outlet property="btn1" destination="LaA-wN-Ykw" id="s6T-co-blV"/>
+                        <outlet property="btn2" destination="Opa-lV-xeq" id="Rt5-gZ-mvU"/>
+                        <outlet property="btn3" destination="AlP-DI-vqw" id="44H-9h-7N8"/>
+                        <outlet property="btn4" destination="Gtf-sv-eVD" id="hGK-nK-NSt"/>
+                        <outlet property="btn5" destination="6ca-wZ-QJ8" id="LMS-Gl-cBh"/>
+                        <outlet property="btn6" destination="oX7-NZ-Id7" id="05X-ik-zTJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ShG-Ni-d7E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2271" y="78"/>
+        </scene>
     </scenes>
     <resources>
         <image name="assign_wh" width="22" height="22"/>
         <image name="back" width="17" height="17"/>
-        <image name="btnBg" width="621" height="175"/>
+        <image name="btnBg" width="414" height="116"/>
+        <image name="cancel_white" width="22" height="22"/>
         <image name="check" width="17" height="17"/>
         <image name="custom_tag2" width="50" height="50"/>
         <image name="date" width="20" height="20"/>

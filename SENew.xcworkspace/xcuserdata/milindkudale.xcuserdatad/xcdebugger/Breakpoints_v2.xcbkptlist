@@ -218,12 +218,12 @@
                   moduleName = "SENew"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/milindkudale/Desktop/SENew/SENew/CFT%20Feedback/CFTConversationView.swift"
-                  timestampString = "582188432.938866"
+                  timestampString = "586082725.324492"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "314"
                   endingLineNumber = "314"
-                  offsetFromSymbolStart = "144">
+                  offsetFromSymbolStart = "153">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -233,12 +233,12 @@
                   moduleName = "SENew"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/milindkudale/Desktop/SENew/SENew/CFT%20Feedback/CFTConversationView.swift"
-                  timestampString = "582188432.942975"
+                  timestampString = "586082725.327153"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "316"
                   endingLineNumber = "316"
-                  offsetFromSymbolStart = "44">
+                  offsetFromSymbolStart = "52">
                </Location>
             </Locations>
          </BreakpointContent>

@@ -8,6 +8,7 @@
 
 import UIKit
 import JJFloatingActionButton
+import Sheeeeeeeeet
 
 class MyGroupsDashboard: SliderVC {
 
@@ -197,6 +198,29 @@ class MyGroupsDashboard: SliderVC {
         }else{
             OBJCOM.setAlert(_title: "", message: "Please select atleast one or more Group(s) to delete.")
         }
+    }
+    
+    @IBAction func actionMoreOptions(_ sender:AnyObject) {
+        
+        let item2 = ActionSheetItem(title: "Help", value: 2)
+        
+        let button = ActionSheetOkButton(title: "Dismiss")
+        let items = [item2, button]
+        
+        let sheet = ActionSheet(items: items) { sheet, item in
+            if item.title != "Dismiss"{
+                if item == item2 {
+                    
+                    let storyboard = UIStoryboard(name: "MyGroups", bundle: nil)
+                    let vc = storyboard.instantiateViewController(withIdentifier: "idHelpMyGroups") as! HelpMyGroups
+                    vc.modalTransitionStyle = .coverVertical
+                    vc.modalPresentationStyle = .custom
+                    vc.view.backgroundColor = UIColor.darkGray.withAlphaComponent(0.8)
+                    self.present(vc, animated: true, completion: nil)
+                }
+            }
+        }
+        sheet.present(in: self, from: self.view)
     }
 }
 

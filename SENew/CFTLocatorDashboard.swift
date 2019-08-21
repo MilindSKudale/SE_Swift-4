@@ -13,11 +13,12 @@ import Alamofire
 import SwiftyJSON
 import AlamofireImage
 import Sheeeeeeeeet
-import Instructions
+//import Instructions
+import EAIntroView
 
 var repeatCall = false
 
-class CFTLocatorDashboard: BottomPopupViewController, CLLocationManagerDelegate, MKMapViewDelegate {
+class CFTLocatorDashboard: BottomPopupViewController, CLLocationManagerDelegate, MKMapViewDelegate, EAIntroDelegate {
     
     @IBOutlet var statusView : UIView!
     @IBOutlet var btnCurrentPosi : UIButton!
@@ -38,8 +39,8 @@ class CFTLocatorDashboard: BottomPopupViewController, CLLocationManagerDelegate,
     var cftStatus = ""
     var cftDisplayFlagAll = ""
     
-    let coachMarksController = CoachMarksController()
-    let pointOfInterest = UIView()
+   // let coachMarksController = CoachMarksController()
+   // let pointOfInterest = UIView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -99,7 +100,7 @@ class CFTLocatorDashboard: BottomPopupViewController, CLLocationManagerDelegate,
    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
-        self.coachMarksController.start(in: .window(over: self))
+        
         if OBJCOM.isConnectedToNetwork(){
             OBJCOM.setLoader()
             self.getCFTStatus()
@@ -115,7 +116,7 @@ class CFTLocatorDashboard: BottomPopupViewController, CLLocationManagerDelegate,
     
     override func viewWillDisappear(_ animated: Bool) {
         map.showsUserLocation = false
-        self.coachMarksController.stop(immediately: true)
+       // self.coachMarksController.stop(immediately: true)
     }
     
     public func executeRepeatedly() {
@@ -531,8 +532,9 @@ extension CFTLocatorDashboard {
     
     @IBAction func actionMoreOptions(_ sender:AnyObject){
         let item1 = ActionSheetItem(title: "Privacy Options", value: 1)
+        let item2 = ActionSheetItem(title: "Help", value: 2)
         let button = ActionSheetOkButton(title: "Dismiss")
-        let items = [item1, button]
+        let items = [item1, item2, button]
         let sheet = ActionSheet(items: items) { sheet, item in
             if item.title != "Dismiss"{
                 if item == item1 {
@@ -544,6 +546,19 @@ extension CFTLocatorDashboard {
                     vc.modalTransitionStyle = .coverVertical
                     vc.view.backgroundColor = UIColor.black.withAlphaComponent(0.8)
                     self.present(vc, animated: false, completion: nil)
+                }else if item == item2 {
+                    let ingropage1 = EAIntroPage.init(customViewFromNibNamed: "cft1")
+                    let ingropage2 = EAIntroPage.init(customViewFromNibNamed: "cft2")
+                    let ingropage3 = EAIntroPage.init(customViewFromNibNamed: "cft3")
+                    let ingropage4 = EAIntroPage.init(customViewFromNibNamed: "cft4")
+                    let ingropage5 = EAIntroPage.init(customViewFromNibNamed: "cft5")
+                    
+                    let introView = EAIntroView.init(frame: self.view.bounds, andPages: [ingropage1!,ingropage2!,ingropage3!,ingropage4!,ingropage5!])
+                    introView?.delegate = self
+                    introView?.skipButton.backgroundColor = APPBLUECOLOR
+                    introView?.skipButton.layer.cornerRadius = 15.0
+                    introView?.skipButton.titleLabel?.font = UIFont.systemFont(ofSize: 15.0)
+                    introView?.show(in: self.view)
                 }
             }
         }
@@ -655,6 +670,17 @@ extension CFTLocatorDashboard : BottomPopupDelegate {
         }
         
     }
+    
+    func introDidFinish(_ introView: EAIntroView!, wasSkipped: Bool) {
+        if(wasSkipped) {
+            
+            print("Intro skipped")
+            
+        } else {
+            
+            print("Intro skipped")
+        }
+    }
 }
 
 
@@ -718,69 +744,72 @@ class AnnotationView: MKAnnotationView
     }
 }
 
-//// coachmarks
-//extension CFTLocatorDashboard : CoachMarksControllerDataSource, CoachMarksControllerDelegate {
-//    func numberOfCoachMarks(for coachMarksController: CoachMarksController) -> Int {
-//        return 5
-//    }
-//    
-//    
-//    
-//    func coachMarksController(_ coachMarksController: CoachMarksController,
-//                              coachMarkAt index: Int) -> CoachMark {
-//        switch(index) {
-//        case 0:
-//            return coachMarksController.helper.makeCoachMark(for: statusView)
-//        case 1:
-//            return coachMarksController.helper.makeCoachMark(for: btnFindRoute)
-//        case 2:
-//            return coachMarksController.helper.makeCoachMark(for: btnCurrentPosi)
-//        case 3:
-//           
-//            if let buttonItem = navigationItem.rightBarButtonItems?.first {
-//                let buttonItemView = buttonItem.value(forKey: "view") as? UIView
-//                return coachMarksController.helper.makeCoachMark(for: buttonItemView)
-//            }else{
-//                return coachMarksController.helper.makeCoachMark()
-//            }
-//
-//        case 4:
-//          
-//            if let buttonItem = navigationItem.rightBarButtonItems?.last {
-//                let buttonItemView = buttonItem.value(forKey: "view") as? UIView
-//                return coachMarksController.helper.makeCoachMark(for: buttonItemView)
-//            }else{
-//                return coachMarksController.helper.makeCoachMark()
-//            }
-//        default:
-//            return coachMarksController.helper.makeCoachMark()
-//        }
-//        
-//    }
-//    
-//    func coachMarksController(_ coachMarksController: CoachMarksController, coachMarkViewsAt index: Int, madeFrom coachMark: CoachMark) -> (bodyView: CoachMarkBodyView, arrowView: CoachMarkArrowView?) {
-//        
-//        var hintText = ""
-//        
-//        switch(index) {
-//        case 0:
-//            hintText = "Turn ON/OFF your CFT locator availability. "
-//        case 1:
-//            hintText = "By clicking here, you can find route between source and destination."
-//        case 2:
-//            hintText = "By clicking here, navigate on your current location."
-//            
-//        case 3:
-//            hintText = "By clicking here, navigate on your current location."
-//        case 4:
-//            hintText = "By clicking here, navigate on your current location."
-//        
-//        default: break
-//        }
-//        
-//        let coachViews = coachMarksController.helper.makeDefaultCoachViews(withArrow: true, arrowOrientation: coachMark.arrowOrientation, hintText: hintText, nextText: "Next")
-//        coachViews.bodyView.nextLabel.textColor = APPORANGECOLOR
-//        coachViews.bodyView.hintLabel.textColor = APPBLUECOLOR
-//        return (bodyView: coachViews.bodyView, arrowView: coachViews.arrowView)
-//    }
-//}
+/*// coachmarks
+extension CFTLocatorDashboard : CoachMarksControllerDataSource, CoachMarksControllerDelegate {
+    func numberOfCoachMarks(for coachMarksController: CoachMarksController) -> Int {
+        return 5
+    }
+    
+    
+    
+    func coachMarksController(_ coachMarksController: CoachMarksController,
+                              coachMarkAt index: Int) -> CoachMark {
+        switch(index) {
+        case 0:
+            return coachMarksController.helper.makeCoachMark(for: statusView)
+        case 1:
+            return coachMarksController.helper.makeCoachMark(for: btnFindRoute)
+        case 2:
+            return coachMarksController.helper.makeCoachMark(for: btnCurrentPosi)
+        case 3:
+           
+            if let buttonItem = navigationItem.rightBarButtonItems?.first {
+                let buttonItemView = buttonItem.value(forKey: "view") as? UIView
+                return coachMarksController.helper.makeCoachMark(for: buttonItemView)
+            }else{
+                return coachMarksController.helper.makeCoachMark()
+            }
+
+        case 4:
+          
+            if let buttonItem = navigationItem.rightBarButtonItems?.last {
+                let buttonItemView = buttonItem.value(forKey: "view") as? UIView
+                return coachMarksController.helper.makeCoachMark(for: buttonItemView)
+            }else{
+                return coachMarksController.helper.makeCoachMark()
+            }
+//        case 5:
+//            let buttonItem = AnnotationView()
+//            return coachMarksController.helper.makeCoachMark(for: buttonItem)
+        default:
+            return coachMarksController.helper.makeCoachMark()
+        }
+        
+    }
+    
+    func coachMarksController(_ coachMarksController: CoachMarksController, coachMarkViewsAt index: Int, madeFrom coachMark: CoachMark) -> (bodyView: CoachMarkBodyView, arrowView: CoachMarkArrowView?) {
+        
+        var hintText = ""
+        
+        switch(index) {
+        case 0:
+            hintText = "Turn ON/OFF your CFT locator availability. "
+        case 1:
+            hintText = "By clicking here, you can find route between source and destination."
+        case 2:
+            hintText = "By clicking here, navigate on your current location."
+            
+        case 3:
+            hintText = "Menu options > Privacy policy : For who can look up on CFT locator map, You can ON/OFF switch of particular user or you can 'disable all' user."
+        case 4:
+            hintText = "By clicking here, you can search CFT user's by using name or location."
+        
+        default: break
+        }
+        
+        let coachViews = coachMarksController.helper.makeDefaultCoachViews(withArrow: true, arrowOrientation: coachMark.arrowOrientation, hintText: hintText, nextText: "Next")
+        coachViews.bodyView.nextLabel.textColor = APPORANGECOLOR
+        coachViews.bodyView.hintLabel.textColor = APPBLUECOLOR
+        return (bodyView: coachViews.bodyView, arrowView: coachViews.arrowView)
+    }
+}*/

@@ -128,6 +128,12 @@
                                 <action selector="actShowMenu:" destination="KAj-q0-yCW" id="V16-fq-Egw"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="more" id="fAd-zA-nZG">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="actionMoreOption:" destination="KAj-q0-yCW" id="frA-bT-IGj"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="lblAvailTextMsg" destination="DFl-Bk-XB0" id="zJt-Qb-Jca"/>
@@ -5411,6 +5417,170 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gBc-nh-lEM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3316" y="1454"/>
+        </scene>
+        <!--Help View-->
+        <scene sceneID="DGy-CJ-Hmg">
+            <objects>
+                <viewController storyboardIdentifier="idTCHelpView" id="zZK-t1-PhR" customClass="TCHelpView" customModule="SENew" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g9b-fh-mkW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RQA-I3-yfI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mjz-lD-0iZ">
+                                        <rect key="frame" x="8" y="21" width="40" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="12f-eB-KKn"/>
+                                            <constraint firstAttribute="width" constant="40" id="1Va-G1-zKs"/>
+                                        </constraints>
+                                        <state key="normal" image="cancel_white"/>
+                                        <connections>
+                                            <action selector="actionClose:" destination="zZK-t1-PhR" eventType="touchUpInside" id="FxA-Fc-guD"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help : Text Campaigns" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVR-7m-eN8">
+                                        <rect key="frame" x="69" y="21" width="177" height="35"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Plf-iy-Mxa">
+                                        <rect key="frame" x="0.0" y="63" width="375" height="1"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="eWp-a0-0Sk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Plf-iy-Mxa" firstAttribute="leading" secondItem="RQA-I3-yfI" secondAttribute="leading" id="0DD-7T-gKc"/>
+                                    <constraint firstItem="MVR-7m-eN8" firstAttribute="height" secondItem="Mjz-lD-0iZ" secondAttribute="height" id="GlW-nt-8UR"/>
+                                    <constraint firstItem="MVR-7m-eN8" firstAttribute="centerX" secondItem="RQA-I3-yfI" secondAttribute="centerX" constant="-30" id="Kyx-S7-pLs"/>
+                                    <constraint firstAttribute="trailing" secondItem="Plf-iy-Mxa" secondAttribute="trailing" id="Uc2-Xf-qGh"/>
+                                    <constraint firstAttribute="bottom" secondItem="Mjz-lD-0iZ" secondAttribute="bottom" constant="8" id="faU-T1-Nzz"/>
+                                    <constraint firstAttribute="bottom" secondItem="Plf-iy-Mxa" secondAttribute="bottom" id="gYq-yn-nHe"/>
+                                    <constraint firstItem="Mjz-lD-0iZ" firstAttribute="leading" secondItem="RQA-I3-yfI" secondAttribute="leading" constant="8" id="oGj-I4-hzE"/>
+                                    <constraint firstAttribute="bottom" secondItem="MVR-7m-eN8" secondAttribute="bottom" constant="8" id="u3c-ws-Kqw"/>
+                                    <constraint firstAttribute="height" constant="64" id="xTd-CT-2ZL"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gGA-Uq-VDP">
+                                <rect key="frame" x="15" y="261" width="345" height="165"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gde-8g-lyx">
+                                        <rect key="frame" x="10" y="15" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="reY-53-SIf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to create text campaigns?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionCreateTC:" destination="zZK-t1-PhR" eventType="touchUpInside" id="Z8p-p0-Tk3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yiv-x2-BrP">
+                                        <rect key="frame" x="10" y="65" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="LmU-8X-mqV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to add text message in campaigns?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionAddMessage:" destination="zZK-t1-PhR" eventType="touchUpInside" id="wx7-Oa-k9T"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="raN-ix-ewH">
+                                        <rect key="frame" x="10" y="115" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="ZMO-uO-w5G"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to add members in campaigns?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionAddMember:" destination="zZK-t1-PhR" eventType="touchUpInside" id="Vi7-7f-2iQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Yiv-x2-BrP" secondAttribute="trailing" constant="10" id="8UD-km-Fxr"/>
+                                    <constraint firstItem="Yiv-x2-BrP" firstAttribute="leading" secondItem="gGA-Uq-VDP" secondAttribute="leading" constant="10" id="Bfr-5Q-Bff"/>
+                                    <constraint firstItem="gde-8g-lyx" firstAttribute="top" secondItem="gGA-Uq-VDP" secondAttribute="top" constant="15" id="Ip0-dE-VcM"/>
+                                    <constraint firstAttribute="bottom" secondItem="raN-ix-ewH" secondAttribute="bottom" constant="10" id="aEw-YZ-5AR"/>
+                                    <constraint firstItem="raN-ix-ewH" firstAttribute="top" secondItem="Yiv-x2-BrP" secondAttribute="bottom" constant="10" id="oRZ-d9-SPW"/>
+                                    <constraint firstAttribute="trailing" secondItem="gde-8g-lyx" secondAttribute="trailing" constant="10" id="rf8-jc-ka5"/>
+                                    <constraint firstItem="raN-ix-ewH" firstAttribute="leading" secondItem="gGA-Uq-VDP" secondAttribute="leading" constant="10" id="sh9-cN-Xxo"/>
+                                    <constraint firstItem="Yiv-x2-BrP" firstAttribute="top" secondItem="gde-8g-lyx" secondAttribute="bottom" constant="10" id="uqO-f9-UCU"/>
+                                    <constraint firstItem="gde-8g-lyx" firstAttribute="leading" secondItem="gGA-Uq-VDP" secondAttribute="leading" constant="10" id="wbd-PT-vGr"/>
+                                    <constraint firstAttribute="trailing" secondItem="raN-ix-ewH" secondAttribute="trailing" constant="10" id="zhJ-zK-rb9"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.69999999999999996"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6aJ-2T-iYb" firstAttribute="trailing" secondItem="RQA-I3-yfI" secondAttribute="trailing" id="6vv-ms-xje"/>
+                            <constraint firstItem="gGA-Uq-VDP" firstAttribute="centerY" secondItem="6aJ-2T-iYb" secondAttribute="centerY" id="Ce1-PJ-Ol2"/>
+                            <constraint firstItem="RQA-I3-yfI" firstAttribute="leading" secondItem="6aJ-2T-iYb" secondAttribute="leading" id="VL7-yo-FCL"/>
+                            <constraint firstItem="RQA-I3-yfI" firstAttribute="top" secondItem="g9b-fh-mkW" secondAttribute="top" id="aym-He-Srb"/>
+                            <constraint firstItem="gGA-Uq-VDP" firstAttribute="leading" secondItem="6aJ-2T-iYb" secondAttribute="leading" constant="15" id="cTH-EQ-FVf"/>
+                            <constraint firstAttribute="trailing" secondItem="gGA-Uq-VDP" secondAttribute="trailing" constant="15" id="rnA-Y0-l9Y"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6aJ-2T-iYb"/>
+                    </view>
+                    <connections>
+                        <outlet property="bgView" destination="gGA-Uq-VDP" id="Gb5-Yn-6iW"/>
+                        <outlet property="btnAddMember" destination="raN-ix-ewH" id="cba-Rz-uff"/>
+                        <outlet property="btnAddMessage" destination="Yiv-x2-BrP" id="3NB-B3-fIf"/>
+                        <outlet property="btnCreateTC" destination="gde-8g-lyx" id="bK0-c9-5wW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hdp-0D-WM7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3930" y="99"/>
         </scene>
     </scenes>
     <resources>

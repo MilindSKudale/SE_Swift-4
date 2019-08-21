@@ -9,6 +9,9 @@ PODS:
   - Charts (3.3.0):
     - Charts/Core (= 3.3.0)
   - Charts/Core (3.3.0)
+  - EAIntroView (2.12.0):
+    - EARestrictedScrollView (~> 1.1.0)
+  - EARestrictedScrollView (1.1.0)
   - GoogleAPIClientForREST/Calendar (1.2.1):
     - GoogleAPIClientForREST/Core
     - GTMSessionFetcher (>= 1.1.7)
@@ -53,6 +56,7 @@ DEPENDENCIES:
   - AlamofireImage
   - AMGCalendarManager
   - Charts
+  - EAIntroView
   - GoogleAPIClientForREST/Calendar
   - GoogleAPIClientForREST/Gmail (~> 1.2.1)
   - GoogleSignIn (~> 4.1.1)
@@ -73,6 +77,8 @@ SPEC REPOS:
     - AlamofireImage
     - AMGCalendarManager
     - Charts
+    - EAIntroView
+    - EARestrictedScrollView
     - GoogleAPIClientForREST
     - GoogleSignIn
     - GoogleToolboxForMac
@@ -95,6 +101,8 @@ SPEC CHECKSUMS:
   AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
   AMGCalendarManager: 83d046b35db736011a0259abcab8b3ff32679e1b
   Charts: ec1f57f9340054155691e84d4544a1d239d382c5
+  EAIntroView: 249559079ddfdbe80e5bcb755c04c3b964b2ac27
+  EARestrictedScrollView: b0c2a3f92fb2610bb44d71c5e4893777c89e45ef
   GoogleAPIClientForREST: a8b95a252014ce2e618df6b75dc72eca2c00b4af
   GoogleSignIn: d9ef55b10f0aa401a5de2747f59b725e4b9732ac
   GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
@@ -111,6 +119,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
   VACalendar: 3e5a001cbf437ebed2bcfc747f3187e555d65175
 
-PODFILE CHECKSUM: c164cb5837ed56cb56d5d88cdfea8361621e7826
+PODFILE CHECKSUM: dc0050da8e813a4606a02dc47f305d680feecccc
 
 COCOAPODS: 1.5.3

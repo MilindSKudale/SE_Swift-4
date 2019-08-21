@@ -68,6 +68,26 @@ class TCListingView: SliderVC {
             OBJCOM.NoInternetConnectionCall()
         }
     }
+    
+    @IBAction func actionMoreOption(_ sender:AnyObject){
+        
+        let item1 = ActionSheetItem(title: "Help", value: 1)
+        let button = ActionSheetOkButton(title: "Dismiss")
+        let items = [item1, button]
+        let sheet = ActionSheet(items: items) { sheet, item in
+            if item.title != "Dismiss"{
+                if item == item1 {
+                    let storyboard = UIStoryboard(name: "TC", bundle: nil)
+                    let vc = storyboard.instantiateViewController(withIdentifier: "idTCHelpView") as! TCHelpView
+                    vc.modalTransitionStyle = .coverVertical
+                    vc.modalPresentationStyle = .custom
+                    vc.view.backgroundColor = UIColor.darkGray.withAlphaComponent(0.8)
+                    self.present(vc, animated: true, completion: nil)
+                }
+            }
+        }
+        sheet.present(in: self, from: self.view)
+    }
 }
 
 extension TCListingView : UITableViewDelegate, UITableViewDataSource {

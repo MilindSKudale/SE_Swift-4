@@ -8,10 +8,10 @@
 
 import UIKit
 import Parchment
+import Sheeeeeeeeet
+import EAIntroView
 
-
-
-class DashboardView: SliderVC {
+class DashboardView: SliderVC, EAIntroDelegate {
 
     fileprivate let vcTitles = [
         "Daily Checklist",
@@ -31,8 +31,6 @@ class DashboardView: SliderVC {
         }else{
             OBJCOM.NoInternetConnectionCall()
         }
-        
-        
     }
     
     func loadDashBoard(){
@@ -50,9 +48,7 @@ class DashboardView: SliderVC {
             DailyScoreGraphView,
             WeeklyScoreCardView
             ])
-        
-//        pagingViewController.backgroundColor = UIColor(patternImage: UIImage(named: "btnBg.png")!)
-//        pagingViewController.selectedBackgroundColor = APPORANGECOLOR
+ 
         pagingViewController.menuBackgroundColor = UIColor(patternImage: UIImage(named: "btnBg1.png")!)
         pagingViewController.indicatorColor = .white
         pagingViewController.selectedTextColor = .white
@@ -127,5 +123,42 @@ class DashboardView: SliderVC {
                 OBJCOM.hideLoader()
             }
         };
+    }
+    
+    @IBAction func actionMoreOption(_ sender:AnyObject){
+        
+        let item1 = ActionSheetItem(title: "Help", value: 1)
+        let button = ActionSheetOkButton(title: "Dismiss")
+        let items = [item1, button]
+        let sheet = ActionSheet(items: items) { sheet, item in
+            if item.title != "Dismiss"{
+                if item == item1 {
+                    let ingropage1 = EAIntroPage.init(customViewFromNibNamed: "obDailyCheck1")
+                    let ingropage2 = EAIntroPage.init(customViewFromNibNamed: "obDailyCheck2")
+                    let ingropage3 = EAIntroPage.init(customViewFromNibNamed: "obDailyCheck3")
+                    let ingropage4 = EAIntroPage.init(customViewFromNibNamed: "obDailyCheck4")
+                    let ingropage5 = EAIntroPage.init(customViewFromNibNamed: "obDailyCheck5")
+                    
+                    let introView = EAIntroView.init(frame: self.view.bounds, andPages: [ingropage1!,ingropage2!,ingropage3!,ingropage4!,ingropage5!])
+                    introView?.delegate = self
+                    introView?.skipButton.backgroundColor = APPBLUECOLOR
+                    introView?.skipButton.layer.cornerRadius = 15.0
+                    introView?.skipButton.titleLabel?.font = UIFont.systemFont(ofSize: 15.0)
+                    introView?.show(in: self.view)
+                }
+            }
+        }
+        sheet.present(in: self, from: self.view)
+    }
+    
+    func introDidFinish(_ introView: EAIntroView!, wasSkipped: Bool) {
+        if(wasSkipped) {
+            
+            print("Intro skipped")
+            
+        } else {
+            
+            print("Intro skipped")
+        }
     }
 }

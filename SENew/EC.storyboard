@@ -115,6 +115,12 @@
                                 <action selector="actShowMenu:" destination="3Ol-We-3fX" id="LJh-Ld-3N5"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="more" id="v0V-C1-axT">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="actionMoreOption:" destination="3Ol-We-3fX" id="tOx-L0-u5q"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="searchView" destination="tcJ-qm-hnO" id="75V-UA-eUz"/>
@@ -4417,7 +4423,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="903"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GBZ-RV-zSP">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="837.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="867.5"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Follow up" borderStyle="roundedRect" placeholder="Email Subject" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BhF-8g-tyQ">
                                                 <rect key="frame" x="20" y="30.5" width="335" height="40"/>
@@ -4556,7 +4562,7 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cfm-uU-oAr">
-                                                <rect key="frame" x="10" y="554" width="355" height="0.5"/>
+                                                <rect key="frame" x="10" y="584" width="355" height="0.5"/>
                                                 <color key="backgroundColor" red="0.0" green="0.32156862749999998" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="0.5" id="Kof-cj-ZSp"/>
@@ -4566,7 +4572,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2DD-m8-rah">
-                                                <rect key="frame" x="135" y="569.5" width="100" height="30"/>
+                                                <rect key="frame" x="135" y="599.5" width="100" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="2kJ-KS-D6W"/>
                                                     <constraint firstAttribute="height" constant="30" id="4Nu-2b-20d"/>
@@ -4582,7 +4588,7 @@
                                                 </connections>
                                             </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="vA6-FR-eZV">
-                                                <rect key="frame" x="20" y="609.5" width="335" height="208"/>
+                                                <rect key="frame" x="20" y="639.5" width="335" height="208"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D3o-Ws-7Ib">
                                                         <rect key="frame" x="0.0" y="0.0" width="335" height="55"/>
@@ -4964,7 +4970,7 @@
                                                 </subviews>
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uah-b6-h6N">
-                                                <rect key="frame" x="20" y="569.5" width="110" height="30"/>
+                                                <rect key="frame" x="20" y="599.5" width="110" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="110" id="elV-vL-dns"/>
                                                     <constraint firstAttribute="height" constant="30" id="qck-0f-Sd9"/>
@@ -5033,7 +5039,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3o-KH-Tex">
-                                                <rect key="frame" x="240" y="569.5" width="100" height="30"/>
+                                                <rect key="frame" x="240" y="599.5" width="100" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="H4v-5e-Xew"/>
                                                     <constraint firstAttribute="width" constant="100" id="j2z-nb-fqw"/>
@@ -5049,7 +5055,7 @@
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B4l-UA-Nn5" customClass="TagListView" customModule="SENew" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="544" width="335" height="0.0"/>
+                                                <rect key="frame" x="20" y="544" width="335" height="30"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" priority="220" constant="30" id="ZJQ-d0-25I"/>
@@ -5709,6 +5715,214 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DlH-4O-ElG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2789.5999999999999" y="2269.1154422788609"/>
+        </scene>
+        <!--Help View-->
+        <scene sceneID="ktN-1Y-2Gx">
+            <objects>
+                <viewController storyboardIdentifier="idECHelpView" id="Idd-YL-FbS" customClass="ECHelpView" customModule="SENew" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AHS-rh-w0O">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NrL-ED-bZI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fQ-YU-NTn">
+                                        <rect key="frame" x="8" y="21" width="40" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="Eh6-0k-5CJ"/>
+                                            <constraint firstAttribute="width" constant="40" id="dOy-m8-WbT"/>
+                                        </constraints>
+                                        <state key="normal" image="cancel_white"/>
+                                        <connections>
+                                            <action selector="actionClose:" destination="Idd-YL-FbS" eventType="touchUpInside" id="JYx-lF-XIt"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help : Email Campaigns" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4vS-og-F8c">
+                                        <rect key="frame" x="64" y="21" width="187.5" height="35"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVJ-Yn-HGa">
+                                        <rect key="frame" x="0.0" y="63" width="375" height="1"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="wo7-nu-kDT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="6fQ-YU-NTn" secondAttribute="bottom" constant="8" id="GuA-wm-lP0"/>
+                                    <constraint firstAttribute="height" constant="64" id="QYR-jm-hpq"/>
+                                    <constraint firstAttribute="bottom" secondItem="4vS-og-F8c" secondAttribute="bottom" constant="8" id="RYj-sn-qBt"/>
+                                    <constraint firstAttribute="trailing" secondItem="aVJ-Yn-HGa" secondAttribute="trailing" id="atk-sl-BMP"/>
+                                    <constraint firstItem="6fQ-YU-NTn" firstAttribute="leading" secondItem="NrL-ED-bZI" secondAttribute="leading" constant="8" id="bpZ-GS-36s"/>
+                                    <constraint firstAttribute="bottom" secondItem="aVJ-Yn-HGa" secondAttribute="bottom" id="eQZ-Ge-JXf"/>
+                                    <constraint firstItem="4vS-og-F8c" firstAttribute="centerX" secondItem="NrL-ED-bZI" secondAttribute="centerX" constant="-30" id="gGV-ge-nIU"/>
+                                    <constraint firstItem="aVJ-Yn-HGa" firstAttribute="leading" secondItem="NrL-ED-bZI" secondAttribute="leading" id="hBy-hb-24d"/>
+                                    <constraint firstItem="4vS-og-F8c" firstAttribute="height" secondItem="6fQ-YU-NTn" secondAttribute="height" id="ppm-aQ-mrQ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iGm-Uh-KPl">
+                                <rect key="frame" x="15" y="211" width="345" height="265"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19i-Im-YHc">
+                                        <rect key="frame" x="10" y="15" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="jtk-wc-LOe"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to create email campaigns?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionCreateEC:" destination="Idd-YL-FbS" eventType="touchUpInside" id="4a9-KG-tmU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIw-WW-vUl">
+                                        <rect key="frame" x="10" y="65" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="PJa-Qc-ghc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to add email template in campaigns?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionAddET:" destination="Idd-YL-FbS" eventType="touchUpInside" id="TJC-Mx-LQW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xls-su-OMX">
+                                        <rect key="frame" x="10" y="115" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Xgb-0h-fBb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to add emails in campaigns?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionAddEmail:" destination="Idd-YL-FbS" eventType="touchUpInside" id="2ef-yp-UPZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z1L-Kf-SBp">
+                                        <rect key="frame" x="10" y="165" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="uh0-Df-EBa"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to import email campaigns?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionImport:" destination="Idd-YL-FbS" eventType="touchUpInside" id="aSC-in-hxn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2FO-wW-ICO">
+                                        <rect key="frame" x="10" y="215" width="325" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="exK-V0-5fD"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="How to set a self reminder?" backgroundImage="btnBg">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="actionSelfReminder:" destination="Idd-YL-FbS" eventType="touchUpInside" id="rWY-9z-tAG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="xls-su-OMX" firstAttribute="top" secondItem="hIw-WW-vUl" secondAttribute="bottom" constant="10" id="3Nh-2t-XJh"/>
+                                    <constraint firstAttribute="bottom" secondItem="2FO-wW-ICO" secondAttribute="bottom" constant="10" id="8gl-tv-FO0"/>
+                                    <constraint firstItem="z1L-Kf-SBp" firstAttribute="top" secondItem="xls-su-OMX" secondAttribute="bottom" constant="10" id="9rP-Cj-4kT"/>
+                                    <constraint firstItem="19i-Im-YHc" firstAttribute="top" secondItem="iGm-Uh-KPl" secondAttribute="top" constant="15" id="BAs-pN-AEP"/>
+                                    <constraint firstAttribute="trailing" secondItem="xls-su-OMX" secondAttribute="trailing" constant="10" id="Exo-Z8-uWh"/>
+                                    <constraint firstItem="hIw-WW-vUl" firstAttribute="top" secondItem="19i-Im-YHc" secondAttribute="bottom" constant="10" id="GcU-yZ-Y0m"/>
+                                    <constraint firstAttribute="trailing" secondItem="2FO-wW-ICO" secondAttribute="trailing" constant="10" id="Hmp-OT-kLQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="hIw-WW-vUl" secondAttribute="trailing" constant="10" id="QIY-St-mgd"/>
+                                    <constraint firstItem="hIw-WW-vUl" firstAttribute="leading" secondItem="iGm-Uh-KPl" secondAttribute="leading" constant="10" id="RH6-2Y-65M"/>
+                                    <constraint firstAttribute="trailing" secondItem="z1L-Kf-SBp" secondAttribute="trailing" constant="10" id="VUf-MG-MhP"/>
+                                    <constraint firstItem="z1L-Kf-SBp" firstAttribute="leading" secondItem="iGm-Uh-KPl" secondAttribute="leading" constant="10" id="boX-JQ-QsI"/>
+                                    <constraint firstItem="xls-su-OMX" firstAttribute="leading" secondItem="iGm-Uh-KPl" secondAttribute="leading" constant="10" id="fXE-SG-dYP"/>
+                                    <constraint firstItem="2FO-wW-ICO" firstAttribute="leading" secondItem="iGm-Uh-KPl" secondAttribute="leading" constant="10" id="fl7-aJ-VJh"/>
+                                    <constraint firstItem="2FO-wW-ICO" firstAttribute="top" secondItem="z1L-Kf-SBp" secondAttribute="bottom" constant="10" id="j4K-Nw-XNA"/>
+                                    <constraint firstItem="19i-Im-YHc" firstAttribute="leading" secondItem="iGm-Uh-KPl" secondAttribute="leading" constant="10" id="ke6-1e-6Ze"/>
+                                    <constraint firstAttribute="trailing" secondItem="19i-Im-YHc" secondAttribute="trailing" constant="10" id="vdJ-Hd-g6s"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.69999999999999996"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NrL-ED-bZI" firstAttribute="top" secondItem="AHS-rh-w0O" secondAttribute="top" id="I0V-lO-KhN"/>
+                            <constraint firstItem="iGm-Uh-KPl" firstAttribute="centerY" secondItem="eqb-vH-qZR" secondAttribute="centerY" id="S3z-kS-lis"/>
+                            <constraint firstItem="iGm-Uh-KPl" firstAttribute="leading" secondItem="eqb-vH-qZR" secondAttribute="leading" constant="15" id="aHz-Qz-eIt"/>
+                            <constraint firstItem="NrL-ED-bZI" firstAttribute="leading" secondItem="eqb-vH-qZR" secondAttribute="leading" id="fhu-Sj-vHt"/>
+                            <constraint firstItem="eqb-vH-qZR" firstAttribute="trailing" secondItem="NrL-ED-bZI" secondAttribute="trailing" id="paU-km-iuR"/>
+                            <constraint firstAttribute="trailing" secondItem="iGm-Uh-KPl" secondAttribute="trailing" constant="15" id="zEc-yA-UKH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eqb-vH-qZR"/>
+                    </view>
+                    <connections>
+                        <outlet property="bgView" destination="iGm-Uh-KPl" id="CIn-Xd-mWJ"/>
+                        <outlet property="btnAddET" destination="hIw-WW-vUl" id="e0O-MS-AMG"/>
+                        <outlet property="btnAddEmail" destination="xls-su-OMX" id="GeC-1O-Pr2"/>
+                        <outlet property="btnCreateEC" destination="19i-Im-YHc" id="mki-mR-DDF"/>
+                        <outlet property="btnImport" destination="z1L-Kf-SBp" id="1iE-g4-EPG"/>
+                        <outlet property="btnSelfReminder" destination="2FO-wW-ICO" id="QpJ-fg-0U0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FXA-N1-Xz8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3454" y="196"/>
         </scene>
     </scenes>
     <resources>

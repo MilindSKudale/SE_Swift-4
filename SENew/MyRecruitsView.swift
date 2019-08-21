@@ -750,8 +750,11 @@ extension MyRecruitsView {
         
         let item2 = ActionSheetItem(title: "Import Recruits CSV", value: 2)
         let item3 = ActionSheetItem(title: "Export Recruits", value: 3)
+        let item4 = ActionSheetItem(title: "Help", value: 4)
+        
         let button = ActionSheetOkButton(title: "Dismiss")
-        let items = [item2, item3, button]
+        let items = [item2, item3, item4, button]
+        
         let sheet = ActionSheet(items: items) { sheet, item in
             if item.title != "Dismiss"{
                 if item == item2 {
@@ -774,6 +777,13 @@ extension MyRecruitsView {
                     }
                     print(self.prospectCsvArray)
                     self.createCSV(from: self.prospectCsvArray, crmFlag: "4")
+                }else if item == item4 {
+                    let storyboard = UIStoryboard(name: "MyRecruits", bundle: nil)
+                    let vc = storyboard.instantiateViewController(withIdentifier: "idHelpMyRecruit") as! HelpMyRecruit
+                    vc.modalTransitionStyle = .coverVertical
+                    vc.modalPresentationStyle = .custom
+                    vc.view.backgroundColor = UIColor.darkGray.withAlphaComponent(0.8)
+                    self.present(vc, animated: true, completion: nil)
                 }
             }
         }

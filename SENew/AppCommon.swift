@@ -48,7 +48,7 @@ class AppCommon: UIViewController , URLSessionDelegate, URLSessionTaskDelegate, 
         if UserDefaults.standard.value(forKey: "USERINFO") != nil {
             let userData = UserDefaults.standard.value(forKey: "USERINFO") as! [String:Any]
             if userData.count > 0 {
-                userID = userData["zo_user_id"] as! String
+                userID = userData["zo_user_id"] as? String ?? ""
                 let dictParam = ["userId": userID,
                                  "platform":"3"]
                 
